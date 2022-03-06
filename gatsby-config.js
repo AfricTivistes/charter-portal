@@ -9,7 +9,14 @@ module.exports = {
     `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-json`,
-    `gatsby-transformer-sharp`,
+    `gatsby-plugin-image`,
+    {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+        // The option defaults to true
+        checkSupportedExtensions: false,
+      },
+    },
     `gatsby-plugin-sharp`,
     // It needs to be the first one to work with gatsby-remark-images
     {
@@ -84,14 +91,16 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [
-          {
-            family: `Open Sans`,
-            variants: [`400`, `600`],
-          },
-        ],
+        fonts: {
+          google: [
+            {
+              family: `Open Sans`,
+              variants: [`400`, `600`],
+            },
+          ],
+        },
       },
     },
 
