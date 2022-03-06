@@ -1,7 +1,6 @@
 import React from 'react';
 
-import { Twitter } from 'styled-icons/boxicons-logos/Twitter';
-import { Github } from 'styled-icons/boxicons-logos/Github';
+import { Twitter, Github } from '@styled-icons/boxicons-logos';
 
 import * as S from './styled';
 
