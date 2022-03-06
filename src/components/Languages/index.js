@@ -2,6 +2,7 @@ import React from 'react';
 import { navigate } from "gatsby";
 import { useLocale } from '../../hooks/locale';
 import useLanguageMapping from '../useLanguageMapping';
+import locales from '../../../config/i18n';
 
 import * as S from './styled';
 
@@ -18,9 +19,9 @@ const Languages = () => {
 
     const url = window.location.pathname.split("/").pop();
 
-    if (!url) return lang === "en" ?
+    if (!url) return locales[lang].default ?
       navigate(`/`) :
-      navigate(`/${lang}`);
+      navigate(`/${lang}/`);
 
     const associatedUrls = languageMapping.find(item => {
       let hasUrl = false;
@@ -35,9 +36,9 @@ const Languages = () => {
 
     if (!associatedUrls) return navigate("/");
 
-    return lang === "en" ?
-      navigate(`/${associatedUrls[lang]}`) :
-      navigate(`/${lang}/${associatedUrls[lang]}`);
+    return locales[lang].default ?
+      navigate(`${associatedUrls[lang]}`) :
+      navigate(`/${lang}${associatedUrls[lang]}`);
   }
 
   return (
