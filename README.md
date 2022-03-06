@@ -1,4 +1,4 @@
-[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/diogorodrigues/iceberg-gatsby-multilang) 
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/diogorodrigues/iceberg-gatsby-multilang)
 
 <img src="./src/images/logo-iceberg.svg" width="150">
 
@@ -10,27 +10,29 @@
 
 A starter Internationalization / i18n without third party plugins or packages for Posts and Pages. Different URLs dependending on the language. Focused on SEO, PWA, Image Optimization, Styled Components and more. This starter is also integrate with Netlify CMS to manage all pages, posts and images.
 
--   Translations by using GraphQL, hooks and context API
--   Content in markdown for pages and posts in different languages
--   General translations for any content
--   Creation of menus by using, jSON, translations and GraphQL
--   Netlify CMS to manage all pages, posts and images
--   Styled Components to styles
--   All important seetings for speedy and optimized images
--   Blog Posts list with pagination
--   Focus on SEO
--   PWA
+- Translations by using GraphQL, hooks and context API
+- Content in markdown for pages and posts in different languages
+- General translations for any content
+- Creation of menus by using, jSON, translations and GraphQL
+- Netlify CMS to manage all pages, posts and images
+- Styled Components to styles
+- All important seetings for speedy and optimized images
+- Blog Posts list with pagination
+- Focus on SEO
+- PWA
 
 ## 🚀 Getting Started
 
 Assuming [Gatsby](https://github.com/gatsbyjs/gatsby/) is installed, run the following commands to install the project:
 
 **With gatsby-cli**:
+
 ```
 $ gatsby new gatsby-multilanguage-site https://github.com/diogorodrigues/iceberg-gatsby-multilang.git
 ```
 
 **With git clone**:
+
 ```
 $ git clone https://github.com/diogorodrigues/iceberg-gatsby-multilang.git your-project-name # Clone the project
 
@@ -40,7 +42,6 @@ rm -rf .git
 yarn install # or npm install
 gatsby develop # or yarn run develop
 ```
-
 
 Running `gatsby develop` you will see the following URLs:
 
@@ -126,13 +127,13 @@ Realize that you need to use `name: github` for local development and `name: git
 
 ## Important notes:
 
--   General information for languages are defined in `config/i18n.js`.
--   The general content translations are located in `config/translations` and the `useTranslations` custom hook pulls these translations (via GraphQL query) and inserts them into the pages.
--   The menu items translations are located in `config/menu` and the `useMenu` custom hook pulls these translations (via GraphQL query) and inserts them into the pages.
--   **✨ New**: Adding corresponding urls are locating in `config/language-mapping` and the `useLanguageMapping` custom hook pulls these translations (via GraphQL query) and inserts them into the pages. It is used together with the language switcher so that the page is directed to a page corresponding to the other language.
--   Due to the use of a global layout / context API and the language code passed to all pages (see `gatsby-node.js`), you know on all pages which language is currently displayed.
--   Blogposts are defined in `blog` directory and pages are defined in `pages` directory. The file names are the `slug` of the posts and pages.
--   A custom component for the <a> tag is implemented - this way links can stay the same for every language, without the need to manually write path prefixes.
+- General information for languages are defined in `config/i18n.js`.
+- The general content translations are located in `config/translations` and the `useTranslations` custom hook pulls these translations (via GraphQL query) and inserts them into the pages.
+- The menu items translations are located in `config/menu` and the `useMenu` custom hook pulls these translations (via GraphQL query) and inserts them into the pages.
+- **✨ New**: Adding corresponding urls are locating in `config/language-mapping` and the `useLanguageMapping` custom hook pulls these translations (via GraphQL query) and inserts them into the pages. It is used together with the language switcher so that the page is directed to a page corresponding to the other language.
+- Due to the use of a global layout / context API and the language code passed to all pages (see `gatsby-node.js`), you know on all pages which language is currently displayed.
+- Blogposts are defined in `blog` directory and pages are defined in `pages` directory. The file names are the `slug` of the posts and pages.
+- A custom component for the <a> tag is implemented - this way links can stay the same for every language, without the need to manually write path prefixes.
 
 ## Deploy
 
