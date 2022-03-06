@@ -1,6 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { useStaticQuery, graphql } from 'gatsby';
+import { getImage } from "gatsby-plugin-image";
 import useTranslations from '../useTranslations';
 
 import * as S from './styled';
@@ -24,10 +25,12 @@ const PostItem = ({
           edges {
             node {
               childImageSharp {
-                fluid(maxWidth: 600, maxHeight: 350) {
-                  src
-                  ...GatsbyImageSharpFluid
-                }
+                gatsbyImageData(
+                  width: 600
+                  height: 350
+                  placeholder: BLURRED
+                  layout: CONSTRAINED
+                )
               }
             }
           }
@@ -37,29 +40,32 @@ const PostItem = ({
   );
 
   const postImgCover = listImages.edges.find(img => {
-    return img.node.childImageSharp.fluid.src.includes('cover');
+    return img.node.childImageSharp.gatsbyImageData.images.fallback.src.includes('cover');
   });
 
-  const imgName = image ? image.split('/')[3] : false;
+  const imgName = image ? image.childImageSharp.gatsbyImageData.images.fallback.src.split('/')[4] : false;
 
   const postImg = imgName
     ? listImages.edges.find(img => {
-        return img.node.childImageSharp.fluid.src.includes(imgName);
+      return img.node.childImageSharp.gatsbyImageData.images.fallback.src.includes(imgName);
       })
     : false;
+
+  const imageDefault = getImage(postImg.node)
+  const imageCover = getImage(postImgCover.node)
 
   return (
     <S.PostItemLink to={slug}>
       <S.PostItemWrapper>
         {postImg && (
           <S.PostItemImg
-            fluid={postImg.node.childImageSharp.fluid}
+            image={imageDefault}
             alt={title}
           />
         )}
         {!postImg && (
           <S.PostItemImg
-            fluid={postImgCover.node.childImageSharp.fluid}
+            image={imageCover}
             alt={title}
           />
         )}

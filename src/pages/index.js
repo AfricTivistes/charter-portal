@@ -78,7 +78,7 @@ export const query = graphql`
     allMarkdownRemark(
       filter: {
         fields: { locale: { eq: $locale } }
-        fileAbsolutePath: {regex: "/(blog)\/.*\\.md$/"}
+        fileAbsolutePath: {regex: "/(blog)\/.*[.]md$/"}
       }
       sort: { fields: [frontmatter___date], order: DESC }
       limit: 2
@@ -90,7 +90,11 @@ export const query = graphql`
             description
             category
             background
-            image
+            image {
+              childImageSharp {
+                gatsbyImageData(layout: FULL_WIDTH)
+              }
+            }
             date(formatString: $dateFormat)
 
           }

@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 import media from 'styled-media-query';
-import Img from 'gatsby-image';
+import { GatsbyImage } from "gatsby-plugin-image";
 import LocalizedLink from '../LocalizedLink';
 
 export const PostItemLink = styled(LocalizedLink)`
@@ -29,7 +29,7 @@ export const PostItemWrapper = styled.section`
 //   display: block;
 // `
 
-export const PostItemImg = styled(Img)`
+export const PostItemImg = styled(GatsbyImage)`
   width: 100%;
 `;
 

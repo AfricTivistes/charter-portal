@@ -73,7 +73,7 @@ export const query = graphql`
       sort: {fields: frontmatter___date, order: DESC}, 
       filter: { 
         fields: { locale: { eq: $locale } } 
-        fileAbsolutePath: {regex: "/(blog)\/.*\\.md$/"}
+        fileAbsolutePath: {regex: "/(blog)\/.*[.]md$/"}
       }
       limit: $limit
       skip: $skip
@@ -85,7 +85,11 @@ export const query = graphql`
             description
             category
             background
-            image
+            image {
+              childImageSharp {
+                gatsbyImageData(layout: FULL_WIDTH)
+              }
+            }
             date(formatString: $dateFormat)
 
           }
