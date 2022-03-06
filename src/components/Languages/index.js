@@ -26,7 +26,8 @@ const Languages = () => {
       let hasUrl = false;
 
       Object.entries(item).forEach(([key, value]) => {
-        if (value.split("/").pop() === url) return hasUrl = true;
+        if (value.split("/").pop() === url) hasUrl = true;
+        return hasUrl;  
       });
 
       return hasUrl

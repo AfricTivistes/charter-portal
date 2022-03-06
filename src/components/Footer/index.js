@@ -21,6 +21,7 @@ const Footer = () => {
           <a
             href="https://developer.mozilla.org/en-US/docs/Web/Progressive_web_apps"
             target="_blank"
+            rel="noopener noreferrer"
           >
             {seeMorePWA}
           </a>
@@ -31,6 +32,7 @@ const Footer = () => {
           <a
             href="https://twitter.com/_diogorodrigues"
             target="_blank"
+            rel="noopener noreferrer"
           >
             @_diogorodrigues
           </a>
@@ -38,6 +40,7 @@ const Footer = () => {
           <a
             href="https://github.com/diogorodrigues/iceberg-gatsby-multilang"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Github
           </a>
