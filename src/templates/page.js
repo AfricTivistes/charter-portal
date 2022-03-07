@@ -34,7 +34,7 @@ export const query = graphql`
         description
         image {
           childImageSharp {
-            gatsbyImageData(layout: FULL_WIDTH)
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
           }
         }
       }

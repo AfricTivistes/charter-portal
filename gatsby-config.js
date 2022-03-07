@@ -6,18 +6,8 @@ module.exports = {
     siteUrl: `https://iceberg-gatsby-multilang.netlify.com/`,
   },
   plugins: [
-    `gatsby-plugin-netlify-cms`,
     `gatsby-plugin-styled-components`,
     `gatsby-transformer-json`,
-    `gatsby-plugin-image`,
-    {
-      resolve: `gatsby-transformer-sharp`,
-      options: {
-        // The option defaults to true
-        checkSupportedExtensions: false,
-      },
-    },
-    `gatsby-plugin-sharp`,
     // It needs to be the first one to work with gatsby-remark-images
     {
       resolve: `gatsby-source-filesystem`,
@@ -69,6 +59,15 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-transformer-sharp`,
+      options: {
+        // The option defaults to true
+        checkSupportedExtensions: false,
+      },
+    },
+    `gatsby-plugin-sharp`,
+    `gatsby-plugin-image`,
+    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -103,7 +102,6 @@ module.exports = {
         },
       },
     },
-
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sitemap`,
     {
@@ -121,5 +119,7 @@ module.exports = {
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     `gatsby-plugin-offline`,
+    `gatsby-plugin-netlify-cms`,
+    `gatsby-plugin-netlify`,
   ],
 };

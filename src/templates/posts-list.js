@@ -87,7 +87,7 @@ export const query = graphql`
             background
             image {
               childImageSharp {
-                gatsbyImageData(layout: FULL_WIDTH)
+                gatsbyImageData(quality: 100, layout: FULL_WIDTH)
               }
             }
             date(formatString: $dateFormat)

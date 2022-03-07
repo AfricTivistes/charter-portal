@@ -26,9 +26,10 @@ const PostItem = ({
             node {
               childImageSharp {
                 gatsbyImageData(
-                  width: 600
-                  height: 350
-                  placeholder: BLURRED
+                  quality: 100,
+                  width: 600,
+                  height: 350,
+                  placeholder: BLURRED,
                   layout: CONSTRAINED
                 )
               }
