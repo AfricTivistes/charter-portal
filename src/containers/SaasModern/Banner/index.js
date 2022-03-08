@@ -136,7 +136,7 @@ BannerSection.defaultProps = {
   discountAmount: {
     fontSize: ['13px', '14px', '14px', '14px', '14px'],
     fontWeight: '700',
-    color: '#00865b',
+    color: '#4F1F37',
     mb: 0,
     as: 'span',
     mr: '0.4em',

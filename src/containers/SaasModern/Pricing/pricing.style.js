@@ -33,7 +33,7 @@ const ListItem = styled.div`
     margin-bottom: 0;
   }
   .price_list_icon {
-    color: #18d379;
+    color: #F8D761;
     margin-right: 10px;
   }
 `;
@@ -103,8 +103,8 @@ const PricingButtonWrapper = styled.div`
       border-left-color: transparent;
     }
     &.active-item {
-      color: #2aa275;
-      border-color: #2aa275;
+      color: #4F1F37;
+      border-color: #4F1F37;
     }
     @media (max-width: 575px) {
       font-size: 14px;

@@ -27,7 +27,7 @@ const App = () => {
   return (
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
-        <Seo title="SaaS Modern | A react next landing page" />
+        <Seo title="The Charter Project Africa | Democracy  | Elections | Governance " />
 
         <ResetCSS />
         <GlobalStyle />

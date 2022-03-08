@@ -130,7 +130,7 @@ FaqSection.defaultProps = {
     fontSize: '14px',
     letterSpacing: '0.15em',
     fontWeight: '700',
-    color: '#2aa275',
+    color: '#4F1F37',
     mb: '5px',
   },
   secHeading: {

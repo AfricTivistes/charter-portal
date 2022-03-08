@@ -4,8 +4,8 @@ const SectionWrapper = styled.section`
   padding: 100px 0 0 0;
   background: linear-gradient(
     35deg,
-    rgb(147, 249, 185) 0%,
-    rgb(29, 151, 108) 100%
+    rgb(69, 26, 38) 0%,
+    rgb(79, 31, 55) 100%
   );
   @media (max-width: 990px) {
     padding: 80px 0 0 0;
