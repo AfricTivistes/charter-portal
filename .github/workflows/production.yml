@@ -1,8 +1,8 @@
-name: 'Deploy'
+name: 'Deploy charter'
 on:
   push:
     branches:
-      - master
+      - main
 jobs:
   deploy:
     name: 'Deploy'
