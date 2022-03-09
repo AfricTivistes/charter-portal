@@ -106,7 +106,7 @@ Navbar.defaultProps = {
     width: '100%',
   },
   logoStyle: {
-    maxWidth: ['180px', '160px'],
+    maxWidth: ['160px', '180px'],
   },
   button: {
     type: 'button',

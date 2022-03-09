@@ -40,6 +40,10 @@ const query = graphql`
 
             shareOpinion
 
+            bannerTitle
+            bannerDescription
+            bannerButton
+
             hello
             subline
             latestPosts
@@ -52,6 +56,7 @@ const query = graphql`
             of
 
             button
+            buttonWatch
 
             aboutProject
             seeMorePWA

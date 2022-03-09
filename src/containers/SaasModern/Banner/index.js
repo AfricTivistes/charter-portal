@@ -13,6 +13,8 @@ import TiltShape from '../TiltShape';
 import { BannerWrapper, DiscountWrapper, DiscountLabel } from './banner.style';
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 
+import useTranslations from '../../../components/useTranslations';
+
 const BannerSection = ({
   row,
   contentWrapper,
@@ -37,6 +39,13 @@ const BannerSection = ({
     }
   `);
 
+  const {
+    bannerTitle,
+    bannerDescription,
+    bannerButton,
+    buttonWatch
+  } = useTranslations();
+
   const bannerImage = getImage(Data.bannerImage);
 
   return (
@@ -56,20 +65,20 @@ const BannerSection = ({
             </DiscountWrapper>
             <Heading
               {...title}
-              content="Ultimate Platform to monitor your best workflow."
+              content={bannerTitle}
             />
             <Text
               {...description}
-              content="For Enhanced performance we use LiteSpeed Web Server, HTTP/2, PHP7. We make your website faster, which will help you to increase search ranking!"
+              content={bannerDescription}
             />
             <Box {...buttonWrapper}>
               <a href="#1">
-                <Button {...fillButton} title="FREE TRIAL" />
+                <Button {...fillButton} title={bannerButton} />
               </a>
               <a href="#1">
                 <Button
                   {...button}
-                  title="WATCH VIDEO"
+                  title={buttonWatch}
                   icon={<Icon icon={ic_play_circle_filled} size={30} />}
                   iconPosition="left"
                 />
