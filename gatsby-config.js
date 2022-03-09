@@ -114,7 +114,7 @@ module.exports = {
         fonts: {
           google: [
             {
-              family: `Open Sans`,
+              family: `Hind`,
               variants: [`400`, `600`],
             },
           ],
