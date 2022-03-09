@@ -38,6 +38,8 @@ const query = graphql`
           translations: childTranslationsJson {
             home
 
+            shareOpinion
+
             hello
             subline
             latestPosts

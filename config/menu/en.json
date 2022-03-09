@@ -4,5 +4,32 @@
     { "name": "About", "link": "/about" },
     { "name": "Blog", "link": "/blog" },
     { "name": "Contact", "link": "/contact" }
+  ],
+  "MENU_ITEMS": [
+    {
+      "label": "Home",
+      "path": "#banner_section",
+      "offset": "0"
+    },
+    {
+      "label": "Charter",
+      "path": "#feature_section",
+      "offset": "0"
+    },
+    {
+      "label": "Activities",
+      "path": "#pricing_section",
+      "offset": "0"
+    },
+    {
+      "label": "News",
+      "path": "#testimonial_section",
+      "offset": "0"
+    },
+    {
+      "label": "FAQ",
+      "path": "#faq_section",
+      "offset": "0"
+    }
   ]
 }
