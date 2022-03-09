@@ -10,6 +10,7 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { useStaticQuery, graphql } from 'gatsby';
 import { useLocale } from '../hooks/locale';
+import locales from '../../config/i18n';
 
 function SEO({ description, lang, meta, title, image }) {
     const { locale } = useLocale();
@@ -18,8 +19,6 @@ function SEO({ description, lang, meta, title, image }) {
             query {
                 site {
                     siteMetadata {
-                        title
-                        description
                         author
                         siteUrl
                     }
@@ -28,7 +27,7 @@ function SEO({ description, lang, meta, title, image }) {
         `
     )
 
-    const metaDescription = description || site.siteMetadata.description
+    const metaDescription = description || locales[locale].defaultDescription;
 
     const url = site.siteMetadata.siteUrl
     const ogImage = `${url}${image || '/assets/img/cover.png'}`
@@ -45,7 +44,7 @@ function SEO({ description, lang, meta, title, image }) {
                 dir,
             }}
             title={title}
-            titleTemplate={`%s | ${site.siteMetadata.title}`}
+            titleTemplate={`%s | ${locales[locale].defaultTitle}`}
             meta={[
                 {
                     name: `description`,

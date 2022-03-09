@@ -22,12 +22,18 @@ import UpdateScreen from '../containers/SaasModern/UpdateScreen';
 import TestimonialSection from '../containers/SaasModern/Testimonial';
 import Footer from '../containers/SaasModern/Footer';
 import Seo from '../components/seo';
+import useTranslations from '../components/useTranslations';
 
 const App = () => {
+
+  const {
+    home
+  } = useTranslations();
+
   return (
     <ThemeProvider theme={saasModernTheme}>
       <Fragment>
-        <Seo title="The Charter Project Africa | Democracy  | Elections | Governance " />
+        <Seo title={home} />
 
         <ResetCSS />
         <GlobalStyle />
