@@ -10,6 +10,9 @@
   "WorkingProcessTitle": "ACDEG",
   "WorkingProcessDescription": "African Charter on Democracy, Elections and Governance",
 
+  "InfoSectionTitle": "Spaces for collaboration between",
+  "InfoSectionDescription": "itizens, civic initiatives and African Union policy makers, at national, regional and continental levels",
+
   "hello": "Gatsby multi-language starter",
   "subline": "Internationalization / i18n without third party plugins or packages for Posts and Pages. Different URLs dependending on the language. Focused on SEO, PWA, Image Optimization, Styled Components and more. This starter is also integrate with Netlify CMS to manage all pages, posts and images.",
   "latestPosts": "Latest posts",

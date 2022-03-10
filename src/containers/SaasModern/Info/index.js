@@ -10,8 +10,10 @@ import Image from '../../../common/components/Image';
 import Container from '../../../common/components/UI/Container';
 
 import InfoSectionWrapper from './info.style';
-import ImageOne from '../../../common/assets/image/saasModern/dash-1.png';
-import ImageTwo from '../../../common/assets/image/saasModern/dash-2.png';
+import ImageOne from '../../../common/assets/image/saasModern/dash-1.jpg';
+import ImageTwo from '../../../common/assets/image/saasModern/dash-2.jpg';
+
+import useTranslations from '../../../components/useTranslations';
 
 const InfoSection = ({
   row,
@@ -27,6 +29,12 @@ const InfoSection = ({
   imageWrapperTwo,
   textAreaRow,
 }) => {
+  const {
+    bannerButton,
+    InfoSectionTitle,
+    InfoSectionDescription
+  } = useTranslations();
+
   return (
     <InfoSectionWrapper>
       <Container fullWidth noGutter className="info-sec-container">
@@ -50,15 +58,15 @@ const InfoSection = ({
           <Box {...col} {...textArea}>
             <Heading
               {...title}
-              content="Make your website growth with next level visitors"
+              content={InfoSectionTitle}
             />
             <Text
               {...description}
-              content="For Enhanced performance we use LiteSpeed Web Server, HTTP/2, PHP7. We make your website faster, which will help you to increase search ranking!."
+              content={InfoSectionDescription}
             />
             <Box>
               <a href="#1">
-                <Button {...button} title="HOW IT WORKS" />
+                <Button {...button} title={bannerButton} />
               </a>
             </Box>
           </Box>

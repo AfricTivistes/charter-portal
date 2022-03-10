@@ -47,6 +47,9 @@ const query = graphql`
             WorkingProcessTitle
             WorkingProcessDescription
 
+            InfoSectionTitle
+            InfoSectionDescription
+
             hello
             subline
             latestPosts
