@@ -31,5 +31,22 @@
       "path": "#faq_section",
       "offset": "0"
     }
+  ],
+  "PROCESS_ITEMS": [
+    {
+      "image": "../../src/common/assets/image/saasModern/process-1.svg",
+      "title": "Démocratie",
+      "description": "Le consortium du Charter Project Africa met en œuvre des activités visant à de promouvoir la démocratie..."
+    },
+    {
+      "image": "../../src/common/assets/image/saasModern/process-2.svg",
+      "title": "Elections",
+      "description": "Les Etats parties de la charte africaine de la démocratie, des élections et de la gouvernance (CADEG) se sont engagés à tenir régulièrement des élections transparentes, libres et justes..."
+    },
+    {
+      "image": "../../src/common/assets/image/saasModern/process-3.svg",
+      "title": "Gouvernance",
+      "description": "La Charte africaine de la démocratie, des élections et de la gouvernance ( CADEG) se concentre explicitement sur quelques domaines où la bonne gouvernance est la plus manifeste..."
+    }
   ]
 }

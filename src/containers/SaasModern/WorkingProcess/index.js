@@ -1,5 +1,4 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
 import PropTypes from 'prop-types';
 import Box from '../../../common/components/Box';
 import Text from '../../../common/components/Text';
@@ -7,6 +6,9 @@ import Heading from '../../../common/components/Heading';
 import Image from '../../../common/components/Image';
 import Container from '../../../common/components/UI/Container';
 import ProcessItem, { ProcessIndex } from './workingProcess.style';
+
+import usePROCESS from './usePROCESS_ITEMS'
+import useTranslations from '../../../components/useTranslations';
 
 const WorkingProcessSection = ({
   sectionWrapper,
@@ -19,33 +21,25 @@ const WorkingProcessSection = ({
   processTitleStyle,
   processDescriptionStyle,
 }) => {
-  const Data = useStaticQuery(graphql`
-    query {
-      saasModernJson {
-        PROCESS_ITEMS {
-          title
-          description
-          image {
-            publicURL
-          }
-        }
-      }
-    }
-  `);
+  const PROCESS_ITEMS = usePROCESS();
+  const {
+    WorkingProcessTitle,
+    WorkingProcessDescription,
+  } = useTranslations();
 
   return (
     <Box {...sectionWrapper} as="section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="WORKING PROCESS" />
+          <Text {...secText} content={WorkingProcessTitle} />
           <Heading
             {...secHeading}
-            content="Our Featured Service that We Provide"
+            content={WorkingProcessDescription}
           />
         </Box>
 
         <Box {...processRow}>
-          {Data.saasModernJson.PROCESS_ITEMS.map((item, index) => (
+          {PROCESS_ITEMS.map((item, index) => (
             <Box
               {...processCol}
               key={`process-item-${index}`}

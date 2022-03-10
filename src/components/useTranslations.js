@@ -44,6 +44,9 @@ const query = graphql`
             bannerDescription
             bannerButton
 
+            WorkingProcessTitle
+            WorkingProcessDescription
+
             hello
             subline
             latestPosts

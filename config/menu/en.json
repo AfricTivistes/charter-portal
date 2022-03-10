@@ -31,5 +31,22 @@
       "path": "#faq_section",
       "offset": "0"
     }
+  ],
+  "PROCESS_ITEMS": [
+    {
+      "image": "../../src/common/assets/image/saasModern/process-1.svg",
+      "title": "Democracy",
+      "description": "The Charter Project Africa consortium implements activities aimed at promoting democracy..."
+    },
+    {
+      "image": "../../src/common/assets/image/saasModern/process-2.svg",
+      "title": "Elections",
+      "description": "States Parties to the African Charter on Democracy, Elections and Governance (ACDEG) have committed themselves to holding regular, transparent, free and fair..."
+    },
+    {
+      "image": "../../src/common/assets/image/saasModern/process-3.svg",
+      "title": "Governance",
+      "description": "The African Charter on Democracy, Elections and Governance (ACDEG) explicitly focuses on a few areas where good governance is most evident as a good that states should provide..."
+    }
   ]
 }

@@ -7,6 +7,9 @@
   "bannerDescription": "Is a pan-African project focused on the commitments contained in the African Charter on Democracy, Elections and Governance (ACDEG) - the central African Union policy document to advance democratic governance in African Union member states.",
   "bannerButton": "Find out more",
 
+  "WorkingProcessTitle": "ACDEG",
+  "WorkingProcessDescription": "African Charter on Democracy, Elections and Governance",
+
   "hello": "Gatsby multi-language starter",
   "subline": "Internationalization / i18n without third party plugins or packages for Posts and Pages. Different URLs dependending on the language. Focused on SEO, PWA, Image Optimization, Styled Components and more. This starter is also integrate with Netlify CMS to manage all pages, posts and images.",
   "latestPosts": "Latest posts",
