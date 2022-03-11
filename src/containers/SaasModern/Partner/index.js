@@ -8,7 +8,9 @@ import Image from '../../../common/components/Image';
 import Container from '../../../common/components/UI/Container';
 
 import PartnerSectionWrapper from './partner.style';
-import Partner from '../../../common/assets/image/saasModern/partner.png';
+import Partner from '../../../common/assets/image/saasModern/partner.jpg';
+
+import useTranslations from '../../../components/useTranslations';
 
 const PartnerSection = ({
   row,
@@ -19,6 +21,13 @@ const PartnerSection = ({
   textArea,
   imageArea,
 }) => {
+
+  const {
+    partnerTitle,
+    partnerDescription,
+    partnerButton,
+  } = useTranslations();
+
   return (
     <PartnerSectionWrapper>
       <Container>
@@ -29,15 +38,15 @@ const PartnerSection = ({
           <Box {...col} {...textArea}>
             <Heading
               {...title}
-              content="Meet our business partner who work behind the scene"
+              content={partnerTitle}
             />
             <Text
               {...description}
-              content="You can trust us for any kind of services and some of the world class companies have also trusted us.So have faith and keep in touch with us ."
+              content={partnerDescription}
             />
             <Box>
               <a href="#1">
-                <Button {...button} title="LEARN MORE" />
+                <Button {...button} title={partnerButton} />
               </a>
             </Box>
           </Box>

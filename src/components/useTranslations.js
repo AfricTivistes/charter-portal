@@ -53,6 +53,10 @@ const query = graphql`
             BlogTitle
             BlogDescription
 
+            partnerTitle
+            partnerDescription
+            partnerButton
+
             testimonialTitle
             testimonialDescription
 
