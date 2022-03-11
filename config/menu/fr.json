@@ -48,5 +48,27 @@
       "title": "Gouvernance",
       "description": "La Charte africaine de la démocratie, des élections et de la gouvernance ( CADEG) se concentre explicitement sur quelques domaines où la bonne gouvernance est la plus manifeste..."
     }
+  ],
+  "blog": [{
+      "id": 1,
+      "title": "Real home corporation",
+      "thumbnail_url": "../../src/common/assets/image/agency/blog/blog-img1.jpg",
+      "date": "November 02, 2018",
+      "postLink": "#1"
+    },
+    {
+      "id": 2,
+      "title": "Sheltech developer ltd.",
+      "thumbnail_url": "../../src/common/assets/image/agency/blog/blog-img2.jpg",
+      "date": "November 12, 2018",
+      "postLink": "#2"
+    },
+    {
+      "id": 3,
+      "title": "Alt architecture co.",
+      "thumbnail_url": "../../src/common/assets/image/agency/blog/blog-img3.jpg",
+      "date": "December 09, 2018",
+      "postLink": "#3"
+    }
   ]
 }

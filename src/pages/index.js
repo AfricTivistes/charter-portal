@@ -12,7 +12,7 @@ import {
 import BannerSection from '../containers/SaasModern/Banner';
 import Navbar from '../containers/SaasModern/Navbar';
 import WorkingProcessSection from '../containers/SaasModern/WorkingProcess';
-import PricingSection from '../containers/SaasModern/Pricing';
+import BlogSection from '../containers/Agency/BlogSection';
 import PartnerSection from '../containers/SaasModern/Partner';
 import FaqSection from '../containers/SaasModern/Faq';
 import TrialSection from '../containers/SaasModern/Trial';
@@ -49,7 +49,7 @@ const App = () => {
           <InfoSection />
           <FeatureSection />
           <UpdateScreen />
-          <PricingSection />
+          <BlogSection />
           <PartnerSection />
           <TestimonialSection />
           <FaqSection />

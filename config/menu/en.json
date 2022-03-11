@@ -48,5 +48,27 @@
       "title": "Governance",
       "description": "The African Charter on Democracy, Elections and Governance (ACDEG) explicitly focuses on a few areas where good governance is most evident as a good that states should provide..."
     }
+  ],
+  "blog": [{
+      "id": 1,
+      "title": "Real home corporation",
+      "thumbnail_url": "../../src/common/assets/image/agency/blog/blog-img1.jpg",
+      "date": "November 02, 2018",
+      "postLink": "#1"
+    },
+    {
+      "id": 2,
+      "title": "Sheltech developer ltd.",
+      "thumbnail_url": "../../src/common/assets/image/agency/blog/blog-img2.jpg",
+      "date": "November 12, 2018",
+      "postLink": "#2"
+    },
+    {
+      "id": 3,
+      "title": "Alt architecture co.",
+      "thumbnail_url": "../../src/common/assets/image/agency/blog/blog-img3.jpg",
+      "date": "December 09, 2018",
+      "postLink": "#3"
+    }
   ]
 }

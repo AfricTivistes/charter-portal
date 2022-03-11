@@ -50,6 +50,9 @@ const query = graphql`
             InfoSectionTitle
             InfoSectionDescription
 
+            BlogTitle
+            BlogDescription
+
             hello
             subline
             latestPosts
