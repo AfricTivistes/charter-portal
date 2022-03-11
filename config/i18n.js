@@ -18,6 +18,6 @@ module.exports = {
     siteLanguage: `fr`,
     ogLanguage: `fr_FR`,
     defaultTitle: `Le Charter Project Africa`,
-    defaultDescription: `Projet panafricain axé sur les engagements contenus dans la Charte africaine de la démocratie, des élections et de la gouvernance (ACDEG)`,
+    defaultDescription: `Projet panafricain axé sur les engagements contenus dans la Charte africaine de la démocratie, des élections et de la gouvernance (CADEG)`,
   },
 }
