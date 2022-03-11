@@ -17,6 +17,8 @@ import {
   AuthorImage,
 } from './testimonial.style';
 
+import useTranslations from '../../../components/useTranslations';
+
 const TestimonialSection = ({
   sectionWrapper,
   secTitleWrapper,
@@ -45,6 +47,11 @@ const TestimonialSection = ({
     }
   `);
 
+  const {
+    testimonialTitle,
+    testimonialDescription
+  } = useTranslations();
+
   const carouselOptions = {
     type: 'carousel',
     autoplay: 6000,
@@ -62,8 +69,8 @@ const TestimonialSection = ({
     <Box {...sectionWrapper} as="section" id="testimonial_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="TESTIMONIAL" />
-          <Heading {...secHeading} content="What our client say about us" />
+          <Text {...secText} content={testimonialTitle} />
+          <Heading {...secHeading} content={testimonialDescription} />
         </Box>
         <TestimonialSlideWrapper>
           <GlideCarousel
