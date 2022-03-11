@@ -28,7 +28,7 @@ const WorkingProcessSection = ({
   } = useTranslations();
 
   return (
-    <Box {...sectionWrapper} as="section">
+    <Box {...sectionWrapper} as="section" id="charter_section">
       <Container>
         <Box {...secTitleWrapper}>
           <Text {...secText} content={WorkingProcessTitle} />

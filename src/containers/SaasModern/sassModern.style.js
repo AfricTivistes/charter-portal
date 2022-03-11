@@ -202,7 +202,7 @@ export const ContentWrapper = styled.div`
     .language_menu{
       margin-right:0;
       @media (min-width: 990px) {
-        margin-right: calc(100% - 840px);
+        margin-right: calc(100% - 900px);
       }
     }
   }
