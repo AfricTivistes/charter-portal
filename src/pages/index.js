@@ -15,7 +15,7 @@ import WorkingProcessSection from '../containers/SaasModern/WorkingProcess';
 import BlogSection from '../containers/Agency/BlogSection';
 import PartnerSection from '../containers/SaasModern/Partner';
 import FaqSection from '../containers/SaasModern/Faq';
-import TrialSection from '../containers/SaasModern/Trial';
+import ClientsSection from '../containers/Portfolio/Clients';
 import InfoSection from '../containers/SaasModern/Info';
 import FeatureSection from '../containers/SaasModern/Feature';
 import UpdateScreen from '../containers/SaasModern/UpdateScreen';
@@ -54,7 +54,7 @@ const App = () => {
           <PartnerSection />
           <TestimonialSection />
           <FaqSection />
-          <TrialSection />
+          <ClientsSection />
           <NewsletterSection />
           <Footer />
         </ContentWrapper>

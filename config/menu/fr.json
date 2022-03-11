@@ -70,5 +70,31 @@
       "date": "December 09, 2018",
       "postLink": "#3"
     }
+  ],
+  "CLIENTS": [
+    {
+      "image": "../../src/common/assets/image/portfolio/client-1.png",
+      "title": "AfricTivistes"
+    },
+    {
+      "image": "../../src/common/assets/image/portfolio/client-2.png",
+      "title": "Code for Africa (CfA)"
+    },
+    {
+      "image": "../../src/common/assets/image/portfolio/client-3.png",
+      "title": "Democracy Works Foundation (DWF)"
+    },
+    {
+      "image": "../../src/common/assets/image/portfolio/client-4.png",
+      "title": "L’Institut Gorée"
+    },
+    {
+      "image": "../../src/common/assets/image/portfolio/client-5.png",
+      "title": "Centre européen de gestion des politiques de développement (ECDPM)"
+    },
+    {
+      "image": "../../src/common/assets/image/portfolio/client-6.png",
+      "title": "European Partnership for Democracy (EPD)"
+    }
   ]
 }

@@ -64,6 +64,9 @@ const query = graphql`
             faqDescription
             faqButton
 
+            clientsTitle
+            clientsDescription
+
             newsletterTitle
             emailAddress
             sendButton
