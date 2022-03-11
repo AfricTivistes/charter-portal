@@ -21,6 +21,8 @@ import { minus } from 'react-icons-kit/entypo/minus';
 
 import FaqWrapper from './faq.style';
 
+import useTranslations from '../../../components/useTranslations';
+
 const FaqSection = ({
   sectionWrapper,
   row,
@@ -45,12 +47,18 @@ const FaqSection = ({
     }
   `);
 
+  const {
+    faqTitle,
+    faqDescription,
+    faqButton,
+  } = useTranslations();
+
   return (
     <Box {...sectionWrapper} id="faq_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="FREQUENTLY ASK QUESTION" />
-          <Heading {...secHeading} content="Want to ask something from us?" />
+          <Text {...secText} content={faqTitle} />
+          <Heading {...secHeading} content={faqDescription} />
         </Box>
         <Box {...row}>
           <Box {...col}>
@@ -91,7 +99,7 @@ const FaqSection = ({
             </FaqWrapper>
             <Box {...buttonWrapper}>
               <a href="#1">
-                <Button {...button} title="EXPLORE FORUM" />
+                <Button {...button} title={faqButton} />
               </a>
             </Box>
           </Box>

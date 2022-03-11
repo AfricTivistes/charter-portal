@@ -16,6 +16,10 @@
   "BlogTitle": "Actualités",
   "BlogDescription": "Retrouvez les dernières actualités",
 
+  "faqTitle": "FOIRE AUX QUESTIONS",
+  "faqDescription": "Vous voulez nous demander quelque chose ?",
+  "faqButton": "EXPLORER LE FORUM",
+
   "newsletterTitle": "Abonnez-vous à la newsletter",
   "emailAddress": "Adresse e-mail",
   "sendButton": "ENVOYER LE MESSAGE",

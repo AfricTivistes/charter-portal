@@ -16,6 +16,10 @@
   "BlogTitle": "News",
   "BlogDescription": "Find the latest news",
 
+  "faqTitle": "FREQUENTLY ASK QUESTION",
+  "faqDescription": "Want to ask something from us?",
+  "faqButton": "EXPLORE FORUM",
+
   "newsletterTitle": "Subscribe Newsletter",
   "emailAddress": "Email Address",
   "sendButton": "SEND MESSAGE",
