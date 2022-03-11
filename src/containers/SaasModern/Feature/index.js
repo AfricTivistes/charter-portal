@@ -8,6 +8,8 @@ import FeatureBlock from '../../../common/components/FeatureBlock';
 import Image from '../../../common/components/Image';
 import Container from '../../../common/components/UI/Container';
 
+import useTranslations from '../../../components/useTranslations';
+
 const FeatureSection = ({
   sectionWrapper,
   secTitleWrapper,
@@ -35,12 +37,17 @@ const FeatureSection = ({
     }
   `);
 
+  const {
+    featTitle,
+    featDescription,
+  } = useTranslations();
+
   return (
     <Box {...sectionWrapper} as="section" id="feature_section">
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="FEATURES" />
-          <Heading {...secHeading} content="Why you choose Our Plugin" />
+          <Text {...secText} content={featTitle} />
+          <Heading {...secHeading} content={featDescription} />
         </Box>
 
         <Box {...row}>

@@ -13,7 +13,12 @@
   "InfoSectionTitle": "Espaces de collaboration entre",
   "InfoSectionDescription": "Les citoyens, les initiatives civiques et les décideurs politiques de l’Union africaine, aux niveaux national, régional et continental",
 
-  "BlogTitle": "Actualités",
+  "featTitle": "ACTIVITÉS",
+  "featDescription": "La technologie civique pour amplifier les voix des citoyens.",
+  "updateTitle": "CHIFFRES CLÉS",
+  "updateDescription":"Pour une vision parfaite du project",
+
+  "BlogTitle": "ACTUALITÉS",
   "BlogDescription": "Retrouvez les dernières actualités",
 
   "partnerTitle": "Appel à consultation pour le Charter Project Africa",

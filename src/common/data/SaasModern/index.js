@@ -393,17 +393,17 @@ export const FEATURES = [
 export const SCREENSHOTS = [
   {
     icon: ic_monetization_on,
-    title: 'Budget Overview',
+    title: 'Funding',
     image: Screenshot2,
   },
   {
     icon: ic_settings,
-    title: 'Create & Adjust',
+    title: 'Training',
     image: Screenshot1,
   },
   {
     icon: pieChart,
-    title: 'View Reports',
+    title: 'Advocacy',
     image: Screenshot2,
   },
   {

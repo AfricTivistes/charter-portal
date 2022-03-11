@@ -15,14 +15,22 @@ import TiltShape from '../TiltShape';
 import SectionWrapper from './updateScreen.style';
 import { SCREENSHOTS } from '../../../common/data/SaasModern';
 
+import useTranslations from '../../../components/useTranslations';
+
 const UpdateScreen = ({ secTitleWrapper, secText, secHeading }) => {
+
+  const {
+    updateTitle,
+    updateDescription,
+  } = useTranslations();
+
   return (
     <SectionWrapper>
       <TiltShape />
       <Container>
         <Box {...secTitleWrapper}>
-          <Text {...secText} content="UPDATE" />
-          <Heading {...secHeading} content="Meet our new updated screen" />
+          <Text {...secText} content={updateTitle} />
+          <Heading {...secHeading} content={updateDescription} />
         </Box>
         <Tabs
           renderTabBar={() => <ScrollableInkTabBar />}
