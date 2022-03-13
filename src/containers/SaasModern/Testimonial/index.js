@@ -17,6 +17,7 @@ import {
   AuthorImage,
 } from './testimonial.style';
 
+import useTESTIMONIALS from './useTESTIMONIALS';
 import useTranslations from '../../../components/useTranslations';
 
 const TestimonialSection = ({
@@ -29,23 +30,7 @@ const TestimonialSection = ({
   name,
   designation,
 }) => {
-  const Data = useStaticQuery(graphql`
-    query {
-      saasModernJson {
-        TESTIMONIALS {
-          name
-          designation
-          review
-          title
-          avatar {
-            childImageSharp {
-              gatsbyImageData(quality: 100)
-            }
-          }
-        }
-      }
-    }
-  `);
+  const TESTIMONIALS = useTESTIMONIALS();
 
   const {
     testimonialTitle,
@@ -78,10 +63,10 @@ const TestimonialSection = ({
             carouselSelector="testimonial__slider"
             controls={false}
             bullets={true}
-            numberOfBullets={Data.saasModernJson.TESTIMONIALS.length}
+            numberOfBullets={TESTIMONIALS.length}
           >
             <>
-              {Data.saasModernJson.TESTIMONIALS.map((item, index) => {
+              {TESTIMONIALS.map((item, index) => {
 
                 const imageAvatar = getImage(item.avatar)
               

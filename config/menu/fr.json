@@ -96,5 +96,35 @@
       "image": "../../src/common/assets/image/portfolio/client-6.png",
       "title": "European Partnership for Democracy (EPD)"
     }
+  ],
+  "TESTIMONIALS": [
+    {
+      "title": "Une grande opportunité au Parlement panafricain",
+      "review": "Le Charter Project Africa est un projet panafricain qui offre une grande opportunité au Parlement panafricain de s'engager dans des espaces de collaboration entre les citoyens, les initiatives civiques et les décideurs de l'Union africaine aux niveaux national, régional et continental.",
+      "name": "Vipya Harawa Greffier",
+      "designation": "Parlement Panafricain",
+      "avatar": "../../src/common/assets/image/saasModern/author-1.jpg"
+    },
+    {
+      "title": "Participation de la société civile à ses affaires",
+      "review": "L'Union africaine compte beaucoup sur la participation de la société civile à ses affaires. C'est pourquoi le Charter Project Africa vise à soutenir la gouvernance démocratique par une participation civique innovante, est une initiative majeure.",
+      "name": "Ambassadeur Salah S. Hammad",
+      "designation": "Chef du Secrétariat de l'Architecture de Gouvernance Africaine, Union Africaine",
+      "avatar": "../../src/common/assets/image/saasModern/author-2.jpg"
+    },
+    {
+      "title": "Technologies Civiques pour amplifier les voix des citoyens",
+      "review": "Le projet envisage l'utilisation des technologies civiques pour amplifier les voix des citoyens, plus particulièrement celles des groupes défavorisés et sous-représentés tels que les jeunes, dans la gouvernance de l'Afrique.",
+      "name": "JVipya Harawa Greffier",
+      "designation": "MaParlement Panafricain",
+      "avatar": "../../src/common/assets/image/saasModern/author-3.jpg"
+    },
+    {
+      "title": "Un instrument extrêmement important de l'Union Africaine",
+      "review": "La Charte africaine de la démocratie, des élections et de la gouvernance (CADEG) est un instrument extrêmement important de l'Union Africaine, destiné à traiter le déficit de gouvernance et de démocratie en Afrique. Le Charter Project Africa est venu réengager la société civile, les médias... dans la popularisation de cette charte très importante.",
+      "name": "Ambassadeur Salah S. Hammad",
+      "designation": "Chef du Secrétariat de l'Architecture de Gouvernance Africaine, Union Africaine",
+      "avatar": "../../src/common/assets/image/saasModern/author-2.jpg"
+    }
   ]
 }
