@@ -20,6 +20,7 @@ import InfoSection from '../containers/SaasModern/Info';
 import FeatureSection from '../containers/SaasModern/Feature';
 import UpdateScreen from '../containers/SaasModern/UpdateScreen';
 import TestimonialSection from '../containers/SaasModern/Testimonial';
+import TrialSection from '../containers/SaasModern/Trial';
 import Footer from '../containers/SaasModern/Footer';
 import Seo from '../components/seo';
 import useTranslations from '../components/useTranslations';
@@ -56,6 +57,7 @@ const App = () => {
           <FaqSection />
           <ClientsSection />
           <NewsletterSection />
+          <TrialSection />
           <Footer />
         </ContentWrapper>
       </Fragment>

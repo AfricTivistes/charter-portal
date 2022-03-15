@@ -76,6 +76,9 @@ const query = graphql`
             emailAddress
             sendButton
 
+            trialTitle
+            trialDescription
+
             hello
             subline
             latestPosts
