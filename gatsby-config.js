@@ -114,7 +114,7 @@ module.exports = {
         fonts: {
           google: [
             {
-              family: `Hind`,
+              family: `Poppins`,
               variants: [`400`, `600`],
             },
           ],
