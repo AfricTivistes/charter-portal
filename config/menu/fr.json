@@ -112,5 +112,78 @@
       "designation": "Chef du Secrétariat de l'Architecture de Gouvernance Africaine, Union Africaine",
       "avatar": "../../src/common/assets/image/saasModern/author-2.jpg"
     }
+  ],
+  "FOOTER_WIDGET": [
+    {
+      "title": "À propos de nous",
+      "menuItems": [
+        {
+          "url": "#",
+          "text": "Support Center"
+        },
+        {
+          "url": "#",
+          "text": "Customer Support"
+        },
+        {
+          "url": "#",
+          "text": "About Us"
+        },
+        {
+          "url": "#",
+          "text": "Copyright"
+        },
+        {
+          "url": "#",
+          "text": "Popular Campaign"
+        }
+      ]
+    },
+    {
+      "title": "Nos informations",
+      "menuItems": [
+        {
+          "url": "#",
+          "text": "Return Policy"
+        },
+        {
+          "url": "#",
+          "text": "Privacy Policy"
+        },
+        {
+          "url": "#",
+          "text": "Terms & Conditions"
+        },
+        {
+          "url": "#",
+          "text": "Site Map"
+        },
+        {
+          "url": "#",
+          "text": "Store Hours"
+        }
+      ]
+    },
+    {
+      "title": "Politique",
+      "menuItems": [
+        {
+          "url": "#",
+          "text": "Application security"
+        },
+        {
+          "url": "#",
+          "text": "Software principles"
+        },
+        {
+          "url": "#",
+          "text": "Unwanted software policy"
+        },
+        {
+          "url": "#",
+          "text": "Responsible supply chain"
+        }
+      ]
+    }
   ]
 }

@@ -1,6 +1,5 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import { useStaticQuery, graphql } from 'gatsby';
 import Box from '../../../common/components/Box';
 import Text from '../../../common/components/Text';
 import Heading from '../../../common/components/Heading';
@@ -8,6 +7,7 @@ import Logo from '../../../common/components/UIElements/Logo';
 import Container from '../../../common/components/UI/Container';
 import FooterWrapper, { List, ListItem } from './footer.style';
 
+import useMENU from './useMenu';
 import LogoImage from '../../../common/assets/image/saasModern/logo.png';
 
 const Footer = ({
@@ -19,19 +19,7 @@ const Footer = ({
   logoStyle,
   textStyle,
 }) => {
-  const Data = useStaticQuery(graphql`
-    query {
-      saasModernJson {
-        FOOTER_WIDGET {
-          title
-          menuItems {
-            text
-            url
-          }
-        }
-      }
-    }
-  `);
+  const Data = useMENU();
 
   return (
     <FooterWrapper>
@@ -44,12 +32,11 @@ const Footer = ({
               title="Hosting"
               logoStyle={logoStyle}
             />
-            <Text content="hello@redq.io" {...textStyle} />
-            <Text content="+479-443-9334" {...textStyle} />
+            <Text content="info@charter.africa" {...textStyle} />
           </Box>
           {/* End of footer logo column */}
           <Box {...colTwo}>
-            {Data.saasModernJson.FOOTER_WIDGET.map((widget, index) => (
+            {Data.map((widget, index) => (
               <Box className="col" {...col} key={`footer-widget-${index}`}>
                 <Heading content={widget.title} {...titleStyle} />
                 <List>
