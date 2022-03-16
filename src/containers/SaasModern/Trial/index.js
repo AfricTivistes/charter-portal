@@ -5,8 +5,7 @@ import Text from '../../../common/components/Text';
 import Heading from '../../../common/components/Heading';
 import Image from '../../../common/components/Image';
 import Container from '../../../common/components/UI/Container';
-
-import VendorLogos from '../../../common/assets/image/saasModern/vendor-logos.png';
+import useLogo from './useLogo';
 
 import useTranslations from '../../../components/useTranslations';
 
@@ -25,12 +24,14 @@ const TrialSection = ({
     trialDescription
   } = useTranslations();
 
+  const logo = useLogo();
+
   return (
     <Box {...sectionWrapper}>
       <Container>
         <Box {...row}>
           <Box {...imageArea}>
-            <Image {...ImageOne} src={VendorLogos} alt="VendorLogos" />
+            <Image {...ImageOne} src={logo} alt="VendorLogos" />
           </Box>
           <Box {...textArea}>
             <Heading
@@ -75,7 +76,7 @@ TrialSection.defaultProps = {
     width: ['100%', '100%', '80%', '43%'],
   },
   imageArea: {
-    width: ['70%', '70%', '43%'],
+    width: ['100%', '100%', '50%'],
     mb: ['35px', '35px', '40px', '40px']
   },
   title: {
