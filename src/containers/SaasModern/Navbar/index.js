@@ -37,14 +37,14 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper, langWrapper 
       <Container>
         <Box {...row}>
           <Logo
-            href="/saasmodren"
+            href="/"
             logoSrc={LogoImage}
             title="Portfolio"
             logoStyle={logoStyle}
             className="main-logo"
           />
           <Logo
-            href="/saasmodren"
+            href="/"
             logoSrc={LogoImageAlt}
             title="Portfolio"
             logoStyle={logoStyle}
