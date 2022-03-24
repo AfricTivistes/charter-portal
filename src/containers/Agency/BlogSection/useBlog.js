@@ -3,48 +3,48 @@ import { useStaticQuery, graphql } from 'gatsby';
 import { useLocale } from '../../../hooks/locale';
 
 function useMenu() {
-  // Grab the locale (passed through context) from the Locale Provider 
-  // through useLocale() hook
+  
   const { locale } = useLocale();
-  // Query the JSON files in <rootDir>/i18n/translations
-  const { rawData } = useStaticQuery(query);
-
-  // Simplify the response from GraphQL
-  const simplified = rawData.edges.map(item => {
-    return {
-      name: item.node.name,
-      blog: item.node.translations.blog,
-    };
-  });
+  const { allMarkdownRemark } = useStaticQuery(query);
 
   // Only return menu for the current locale
-  const { blog } = simplified.filter(
-    lang => lang.name === locale,
-  )[0];
+  const node = allMarkdownRemark.edges.filter(
+    item => item.node.fields.locale === locale
+  );
 
-  return blog;
+  return node;
 }
 
 export default useMenu;
 
 const query = graphql`
-  query useblog {
-    rawData: allFile(filter: { sourceInstanceName: { eq: "menu" } }) {
+  query useBlog {
+    allMarkdownRemark(
+      filter: {
+        fileAbsolutePath: {regex: "/(news)\/.*[.]md$/"}
+      }
+      sort: { fields: [frontmatter___date], order: DESC }
+      limit: 6
+    ) {
       edges {
         node {
-          name
-          translations: childMenuJson {
-            blog {
-              date
-              postLink
-              title
-              id
-              thumbnail_url {
-                childImageSharp {
-                  gatsbyImageData(quality: 100)
-                }
+          frontmatter {
+            title
+            description
+            category
+            background
+            image {
+              childImageSharp {
+                gatsbyImageData(quality: 100, layout: FULL_WIDTH)
               }
             }
+            date(formatString: "DD/MM/YYYY")
+
+          }
+          timeToRead
+          fields {
+            locale
+            slug
           }
         }
       }

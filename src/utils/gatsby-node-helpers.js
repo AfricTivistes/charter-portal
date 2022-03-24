@@ -6,7 +6,7 @@ exports.localizedSlug = ({ isDefault, locale, slug, isPage }) => {
   if (isPage) {
     return isDefault ? `/${slug}` : `/${locale}/${slug}`;
   }
-  return isDefault ? `/blog/${slug}` : `/${locale}/blog/${slug}`;
+  return isDefault ? `/news/${slug}` : `/${locale}/news/${slug}`;
 };
 
 // From lodash:

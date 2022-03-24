@@ -5,8 +5,8 @@
       "fr": "/sobre"
     },
     {
-      "en": "/blog",
-      "fr": "/blog"
+      "en": "/news",
+      "fr": "/news"
     },
     {
       "en": "/contact",
@@ -14,24 +14,24 @@
     },
 
     {
-      "en": "/blog/markdown-examples",
-      "fr": "/blog/exemplos-de-markdown"
+      "en": "/news/markdown-examples",
+      "fr": "/news/exemplos-de-markdown"
     },
     {
-      "en": "/blog/javascript-language",
-      "fr": "/blog/linguagem-javascript"
+      "en": "/news/javascript-language",
+      "fr": "/news/linguagem-javascript"
     },
     {
-      "en": "/blog/digital-image-processing",
-      "fr": "/blog/processamento-de-imagens-digitais"
+      "en": "/news/digital-image-processing",
+      "fr": "/news/processamento-de-imagens-digitais"
     },
     {
-      "en": "/blog/adding-menu-items",
-      "fr": "/blog/adicionando-itens-no-menu"
+      "en": "/news/adding-menu-items",
+      "fr": "/news/adicionando-itens-no-menu"
     },
     {
-      "en": "/blog/creating-posts-and-pages",
-      "fr": "/blog/criacao-de-posts-e-paginas"
+      "en": "/news/creating-posts-and-pages",
+      "fr": "/news/criacao-de-posts-e-paginas"
     }
   ]
 } 

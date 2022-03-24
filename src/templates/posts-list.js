@@ -16,8 +16,8 @@ const Blog = props => {
   const isFirst = currentPage === 1;
   const isLast = currentPage === numPages;
   const prevPage =
-    currentPage - 1 === 1 ? '/blog' : `/blog/${currentPage - 1}`;
-  const nextPage = `/blog/page/${currentPage + 1}`;
+    currentPage - 1 === 1 ? '/news' : `/news/${currentPage - 1}`;
+  const nextPage = `/news/page/${currentPage + 1}`;
 
   return (
     <>
@@ -41,7 +41,7 @@ const Blog = props => {
             },
           }) => (
             <PostItem
-              slug={`/blog/${slug}`}
+              slug={`/news/${slug}`}
               background={background}
               category={category}
               date={date}
@@ -73,7 +73,7 @@ export const query = graphql`
       sort: {fields: frontmatter___date, order: DESC}, 
       filter: { 
         fields: { locale: { eq: $locale } } 
-        fileAbsolutePath: {regex: "/(blog)\/.*[.]md$/"}
+        fileAbsolutePath: {regex: "/(news)\/.*[.]md$/"}
       }
       limit: $limit
       skip: $skip

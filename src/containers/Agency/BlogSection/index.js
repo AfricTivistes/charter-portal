@@ -11,6 +11,7 @@ import BlogSectionWrapper from './blogSection.style';
 
 import useBlog from './useBlog'
 import useTranslations from '../../../components/useTranslations';
+import locales from '../../../../config/i18n';
 
 const BlogSection = ({
   row,
@@ -21,6 +22,7 @@ const BlogSection = ({
   blogMeta,
 }) => {
   const Blog = useBlog();
+  
   const {
     BlogTitle,
     BlogDescription
@@ -38,8 +40,10 @@ const BlogSection = ({
         </Box>
         <Box className="row" {...row}>
           {Blog.map((post, index) => {
-
-            const image = getImage(post.thumbnail_url)
+            const { image: imagepath, title, date } = post.node.frontmatter
+            const { locale, slug } = post.node.fields
+            const link = `/news/${slug}`
+            const image = getImage(imagepath)
 
             return (<FeatureBlock
               key={`post_key-${index}`}
@@ -54,11 +58,11 @@ const BlogSection = ({
                 />
               }
               title={
-                <Link href={post.postLink} {...blogTitle}>
-                  {post.title}
+                <Link href={locales[locale].default ? link : `/${locale}${link}`} {...blogTitle} >
+                  {title}
                 </Link>
               }
-              description={<Text content={post.date} {...blogMeta} />}
+              description={<Text content={date} {...blogMeta} />}
             />
           )})}
         </Box>

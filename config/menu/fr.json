@@ -8,27 +8,27 @@
   "MENU_ITEMS": [
     {
       "label": "Accueil",
-      "path": "#banner_section",
+      "path": "/#banner_section",
       "offset": "0"
     },
     {
       "label": "Charte",
-      "path": "#charter_section",
+      "path": "/#charter_section",
       "offset": "0"
     },
     {
       "label": "Activités",
-      "path": "#feature_section",
+      "path": "/#feature_section",
       "offset": "0"
     },
     {
       "label": "Actualités",
-      "path": "#blogSection",
+      "path": "/#blogSection",
       "offset": "0"
     },
     {
       "label": "FAQ",
-      "path": "#faq_section",
+      "path": "/#faq_section",
       "offset": "0"
     }
   ],

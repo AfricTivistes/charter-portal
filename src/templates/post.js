@@ -1,25 +1,34 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 import { graphql } from 'gatsby';
-import TitlePage from '../components/TitlePage';
 import SEO from '../components/seo';
+import { Layout } from '../layouts/Layout-SaasModern';
+import BannerSection from '../containers/SaasModern/Banner/page';
+import Container from '../common/components/UI/Container';
+import Box from '../common/components/Box';
 
-import * as S from '../components/Content/styled';
-
-const Post = props => {
+const Post = ({ row, contentWrapper, ...props }) => {
   const post = props.data.markdownRemark;
 
   return (
-    <>
+    <Layout>
       <SEO
         title={post.frontmatter.title}
         description={post.frontmatter.description}
         image={post.frontmatter.image}
       />
-      <TitlePage text={post.frontmatter.title} />
-      <S.Content>
-        <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
-      </S.Content>
-    </>
+      <BannerSection 
+        bannerTitle={post.frontmatter.title}
+        bannerDescription={post.frontmatter.description}
+        bannerImage={post.frontmatter.image} />
+      <Container>
+        <Box {...row}>
+          <Box {...contentWrapper}>
+          <div dangerouslySetInnerHTML={{ __html: post.html }}></div>
+        </Box>
+      </Box>
+      </Container >
+    </Layout >
   );
 };
 
@@ -34,7 +43,7 @@ export const query = graphql`
         description
         image {
           childImageSharp {
-            gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH,, width: 1170)
           }
         }
       }
@@ -42,5 +51,23 @@ export const query = graphql`
     }
   }
 `;
+
+Post.propTypes = {
+  row: PropTypes.object,
+  contentWrapper: PropTypes.object,
+};
+
+Post.defaultProps = {
+  row: {
+    flexBox: true,
+    flexWrap: 'wrap',
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  contentWrapper: {
+    width: ['100%', '100%', '80%', '55%', '100%'],
+    mb: '40px',
+  }
+}
 
 export default Post;
