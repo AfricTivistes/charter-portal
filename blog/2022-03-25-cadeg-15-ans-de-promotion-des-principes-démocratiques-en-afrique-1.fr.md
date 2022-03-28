@@ -1,7 +1,7 @@
 ---
 title: "CADEG: 15 ans de promotion des principes démocratiques en Afrique"
 description: "#Democratie #Elections #Gouvernance #CharterAfrica"
-date: 2022-03-26 12:30:47
+date: 2022-02-04 12:30:47
 image: assets/img/website-primer-section-fr.png
 category: Javascript
 background: "#7d4cdb"
