@@ -1,7 +1,7 @@
 { 
   "home": "Home",
 
-  "shareOpinion": "Share Your Opinion",
+  "shareOpinion": "Newsletter",
 
   "bannerTitle": "The Charter Project Africa",
   "bannerDescription": "Pan-African project focused on the commitments contained in the African Charter on Democracy, Elections and Governance (ACDEG) - the central African Union policy document to advance democratic governance in African Union member states.",
@@ -38,6 +38,12 @@
   "newsletterTitle": "Subscribe Newsletter",
   "emailAddress": "Email Address",
   "sendButton": "SEND MESSAGE",
+  "newsletterAction": "https://epd.us5.list-manage.com/subscribe/post?u=500c9d96ac4537a15edfc1557&id=bada8e4aa1",
+  "newsletterSending": "Sending...",
+  "newsletterSuccess": "Thank you for subscribing!",
+  "newsletterError": "An unexpected internal error has occurred.",
+  "newsletterEmpty": "You must write an e-mail.",
+  "newsletterDuplicate": "Too many subscribe attempts for this email address",
 
   "trialTitle": "Funded by European Union",
   "trialDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.",

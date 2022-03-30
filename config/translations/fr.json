@@ -1,7 +1,7 @@
 {
   "home": "Accueil",
 
-  "shareOpinion": "Donnez votre avis",
+  "shareOpinion": "Newsletter",
 
   "bannerTitle": "Le Charter Project Africa",
   "bannerDescription": "Projet panafricain axé sur les engagements contenus dans la Charte africaine de la démocratie, des élections et de la gouvernance (CADEG) - le principal document de politique de l'Union africaine visant à faire progresser la gouvernance démocratique dans les États membres de l'Union africaine.",
@@ -38,6 +38,12 @@
   "newsletterTitle": "Abonnez-vous à la newsletter",
   "emailAddress": "Adresse e-mail",
   "sendButton": "ENVOYER LE MESSAGE",
+  "newsletterAction": "https://gmail.us20.list-manage.com/subscribe/post?u=b3789913d943b9e17fc1a91fd&id=e259981ae9",
+  "newsletterSending": "Envoi en cours...",
+  "newsletterSuccess": "Merci de vous être abonné!",
+  "newsletterError": "Une erreur interne inattendue s'est produite.",
+  "newsletterEmpty": "Vous devez écrire un e-mail.",
+  "newsletterDuplicate": "Trop de tentatives d'inscription pour cette adresse e-mail",
 
   "trialTitle": "Financé par l'Union Européenne",
   "trialDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.",

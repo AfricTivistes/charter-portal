@@ -1,9 +1,8 @@
 import React from 'react';
+import Mailchimp from 'react-mailchimp-form'
 import PropTypes from 'prop-types';
 import Box from '../../../common/components/Box';
 import Heading from '../../../common/components/Heading';
-import Input from '../../../common/components/Input';
-import Button from '../../../common/components/Button';
 import Container from '../../../common/components/UI/Container';
 import NewsletterSectionWrapper, {
   NewsletterForm,
@@ -11,11 +10,17 @@ import NewsletterSectionWrapper, {
 
 import useTranslations from '../../../components/useTranslations';
 
-const NewsletterSection = ({ sectionHeader, sectionTitle, btnStyle }) => {
+const NewsletterSection = ({ sectionHeader, sectionTitle}) => {
   const {
     newsletterTitle,
     emailAddress,
     sendButton,
+    newsletterSending,
+    newsletterSuccess,
+    newsletterError,
+    newsletterEmpty,
+    newsletterDuplicate,
+    newsletterAction
   } = useTranslations();
 
   return (
@@ -26,15 +31,30 @@ const NewsletterSection = ({ sectionHeader, sectionTitle, btnStyle }) => {
         </Box>
         <Box>
           <NewsletterForm>
-            <Input
-              inputType="email"
-              isMaterial={false}
-              placeholder={emailAddress}
-              name="email"
-              aria-label="email"
+            <Mailchimp
+              action={newsletterAction}
+              fields={[
+                {
+                  name: 'EMAIL',
+                  placeholder: emailAddress,
+                  type: 'email',
+                  required: true
+                }
+              ]}
+              messages={
+                {
+                  sending: newsletterSending,
+                  success: newsletterSuccess,
+                  error: newsletterError,
+                  empty: newsletterEmpty,
+                  duplicate: newsletterDuplicate,
+                  button: sendButton,
+                }
+              }
+              className="mailchimp"
             />
-            <Button type="button" title={sendButton} {...btnStyle} />
           </NewsletterForm>
+          
         </Box>
       </Container>
     </NewsletterSectionWrapper>
@@ -62,13 +82,6 @@ NewsletterSection.defaultProps = {
     color: '#0f2137',
     letterSpacing: '-0.025em',
     mb: '0',
-  },
-  // button default style
-  btnStyle: {
-    minWidth: '152px',
-    minHeight: '45px',
-    fontSize: '14px',
-    fontWeight: '500',
   },
 };
 

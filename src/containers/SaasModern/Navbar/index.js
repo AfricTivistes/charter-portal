@@ -59,7 +59,7 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper, langWrapper 
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            <a href="#1" className="navbar_button">
+            <a href="/#newsletterSection" className="navbar_button">
               <Button {...button} title={shareOpinion} />
             </a>
             <Drawer
@@ -75,8 +75,8 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper, langWrapper 
                 drawerClose={true}
                 offset={-100}
               />
-              <a href="#1" className="navbar_drawer_button">
-                <Button {...button} title="GET STARTED" />
+              <a href="/#newsletterSection" className="navbar_drawer_button">
+                <Button {...button} title={shareOpinion} />
               </a>
             </Drawer>
           </Box>

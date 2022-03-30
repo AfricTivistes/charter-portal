@@ -75,6 +75,12 @@ const query = graphql`
             newsletterTitle
             emailAddress
             sendButton
+            newsletterAction
+            newsletterSending
+            newsletterSuccess
+            newsletterError
+            newsletterEmpty
+            newsletterDuplicate
 
             trialTitle
             trialDescription
