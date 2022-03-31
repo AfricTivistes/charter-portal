@@ -38,7 +38,8 @@ const query = graphql`
           translations: childTranslationsJson {
             home
 
-            shareOpinion
+            callAction
+            urlAction
 
             bannerTitle
             bannerDescription

@@ -8,27 +8,27 @@
   "MENU_ITEMS": [
     {
       "label": "Accueil",
-      "path": "/#banner_section",
+      "path": "/fr/#banner_section",
       "offset": "0"
     },
     {
       "label": "Charte",
-      "path": "/#charter_section",
+      "path": "/fr/#charter_section",
       "offset": "0"
     },
     {
       "label": "Activités",
-      "path": "/#feature_section",
+      "path": "/fr/#feature_section",
       "offset": "0"
     },
     {
       "label": "Actualités",
-      "path": "/#blogSection",
+      "path": "/fr/#blogSection",
       "offset": "0"
     },
     {
       "label": "FAQ",
-      "path": "/#faq_section",
+      "path": "/fr/#faq_section",
       "offset": "0"
     }
   ],

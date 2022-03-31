@@ -56,7 +56,7 @@ const BannerSection = ({
           <Box {...contentWrapper}>
             <DiscountWrapper>
               <DiscountLabel>
-                <Text {...discountAmount} content="25% Save" />
+                {/* <Text {...discountAmount} content="25% Save" /> */}
                 <Text
                   {...discountText}
                   content="for first month trail version"

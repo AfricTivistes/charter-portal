@@ -1,7 +1,8 @@
 {
   "home": "Accueil",
 
-  "shareOpinion": "Newsletter",
+  "callAction": "Newsletter",
+  "urlAction": "/fr/#newsletterSection",
 
   "bannerTitle": "Le Charter Project Africa",
   "bannerDescription": "Projet panafricain axé sur les engagements contenus dans la Charte africaine de la démocratie, des élections et de la gouvernance (CADEG) - le principal document de politique de l'Union africaine visant à faire progresser la gouvernance démocratique dans les États membres de l'Union africaine.",

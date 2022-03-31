@@ -20,7 +20,8 @@ import useTranslations from '../../../components/useTranslations';
 const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper, langWrapper }) => {
   const MENU_ITEMS = useMENU();
   const {
-    shareOpinion
+    callAction,
+    urlAction
   } = useTranslations();
   
   const { state, dispatch } = useContext(DrawerContext);
@@ -59,8 +60,8 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper, langWrapper 
               menuItems={MENU_ITEMS}
               offset={-70}
             />
-            <a href="/#newsletterSection" className="navbar_button">
-              <Button {...button} title={shareOpinion} />
+            <a href={urlAction} className="navbar_button">
+              <Button {...button} title={callAction} />
             </a>
             <Drawer
               width="420px"
@@ -75,8 +76,8 @@ const Navbar = ({ navbarStyle, logoStyle, button, row, menuWrapper, langWrapper 
                 drawerClose={true}
                 offset={-100}
               />
-              <a href="/#newsletterSection" className="navbar_drawer_button">
-                <Button {...button} title={shareOpinion} />
+              <a href={urlAction} className="navbar_drawer_button">
+                <Button {...button} title={callAction} />
               </a>
             </Drawer>
           </Box>
