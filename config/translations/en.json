@@ -48,7 +48,7 @@
   "newsletterDuplicate": "Too many subscribe attempts for this email address",
 
   "trialTitle": "Funded by European Union",
-  "trialDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.",
+  "trialDescription": "This website was created and maintained with the financial support of the European Union. Its contents are the sole responsibility of the European Partnership for Democracy and do not necessarily reflect the views of the European Union.",
 
   "hello": "Gatsby multi-language starter",
   "subline": "Internationalization / i18n without third party plugins or packages for Posts and Pages. Different URLs dependending on the language. Focused on SEO, PWA, Image Optimization, Styled Components and more. This starter is also integrate with Netlify CMS to manage all pages, posts and images.",

@@ -6,6 +6,8 @@ import { Layout } from '../layouts/Layout-SaasModern';
 import BannerSection from '../containers/SaasModern/Banner/page';
 import Container from '../common/components/UI/Container';
 import Box from '../common/components/Box';
+import BlogSection from '../containers/Agency/BlogSection';
+import TrialSection from '../containers/SaasModern/Trial';
 
 const Page = ({ row, contentWrapper, ...props}) => {
   const post = props.data.markdownRemark;
@@ -25,6 +27,8 @@ const Page = ({ row, contentWrapper, ...props}) => {
           </Box>
         </Box>
       </Container>
+      <BlogSection />
+      <TrialSection />
     </Layout>
   );
 };

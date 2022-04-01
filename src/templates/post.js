@@ -6,6 +6,7 @@ import { Layout } from '../layouts/Layout-SaasModern';
 import BannerSection from '../containers/SaasModern/Banner/page';
 import Container from '../common/components/UI/Container';
 import Box from '../common/components/Box';
+import TrialSection from '../containers/SaasModern/Trial';
 
 const Post = ({ row, contentWrapper, ...props }) => {
   const post = props.data.markdownRemark;
@@ -28,6 +29,7 @@ const Post = ({ row, contentWrapper, ...props }) => {
         </Box>
       </Box>
       </Container >
+      <TrialSection />
     </Layout >
   );
 };
