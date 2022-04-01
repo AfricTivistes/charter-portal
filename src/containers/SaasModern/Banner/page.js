@@ -26,7 +26,7 @@ const BannerSection = ({
   return (
     <BannerWrapper id="banner_section">
       <TiltShape />
-      <Container>
+      <Container className="page">
         <Box {...row}>
           <Box {...contentWrapper}>
             <Heading
@@ -63,6 +63,7 @@ BannerSection.propTypes = {
   buttonWrapper: PropTypes.object,
   button: PropTypes.object,
   fillButton: PropTypes.object,
+  sectionWrapper: PropTypes.object
 };
 
 BannerSection.defaultProps = {
@@ -86,14 +87,16 @@ BannerSection.defaultProps = {
     letterSpacing: '-0.025em',
     mb: ['20px', '25px', '25px', '25px', '25px'],
     lineHeight: '1.2',
-    // textAlign: 'center',
+    textAlign: ['center', 'left'],
+    pl: ['0px', '100px']
   },
   description: {
     fontSize: ['15px', '16px', '16px', '16px', '16px'],
     color: '#fff',
     lineHeight: '1.75',
     mb: '0',
-    // textAlign: 'center',
+    pl: ['0px', '100px'],
+    pr: ['0px', '100px']
   },
   discountAmount: {
     fontSize: ['13px', '14px', '14px', '14px', '14px'],

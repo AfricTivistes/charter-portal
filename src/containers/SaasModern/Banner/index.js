@@ -43,7 +43,8 @@ const BannerSection = ({
     bannerTitle,
     bannerDescription,
     bannerButton,
-    buttonWatch
+    buttonWatch,
+    bannerUrl
   } = useTranslations();
 
   const bannerImage = getImage(Data.bannerImage);
@@ -51,7 +52,7 @@ const BannerSection = ({
   return (
     <BannerWrapper id="banner_section">
       <TiltShape />
-      <Container>
+      <Container className="home">
         <Box {...row}>
           <Box {...contentWrapper}>
             <Heading
@@ -63,7 +64,7 @@ const BannerSection = ({
               content={bannerDescription}
             />
             <Box {...buttonWrapper}>
-              <a href="#1">
+              <a href={bannerUrl}>
                 <Button {...fillButton} title={bannerButton} />
               </a>
               <a href="#1">

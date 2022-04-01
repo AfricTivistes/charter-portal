@@ -44,6 +44,7 @@ const query = graphql`
             bannerTitle
             bannerDescription
             bannerButton
+            bannerUrl
 
             WorkingProcessTitle
             WorkingProcessDescription
