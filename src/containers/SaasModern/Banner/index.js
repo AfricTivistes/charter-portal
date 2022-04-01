@@ -10,7 +10,7 @@ import Heading from '../../../common/components/Heading';
 import Button from '../../../common/components/Button';
 import Container from '../../../common/components/UI/Container';
 import TiltShape from '../TiltShape';
-import { BannerWrapper, DiscountWrapper, DiscountLabel } from './banner.style';
+import { BannerWrapper } from './banner.style';
 import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 
 import useTranslations from '../../../components/useTranslations';
@@ -54,15 +54,6 @@ const BannerSection = ({
       <Container>
         <Box {...row}>
           <Box {...contentWrapper}>
-            <DiscountWrapper>
-              <DiscountLabel>
-                {/* <Text {...discountAmount} content="25% Save" /> */}
-                <Text
-                  {...discountText}
-                  content="for first month trail version"
-                />
-              </DiscountLabel>
-            </DiscountWrapper>
             <Heading
               {...title}
               content={bannerTitle}

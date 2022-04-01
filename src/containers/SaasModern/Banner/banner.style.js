@@ -17,19 +17,3 @@ export const BannerWrapper = styled.section`
     display: block;
   }
 `;
-
-export const DiscountWrapper = styled.div`
-  text-align: center;
-`;
-
-export const DiscountLabel = styled.div`
-  font-family: 'Open Sans', sans-serif;
-  display: inline-block;
-  border-radius: 4em;
-  padding: 9px 22px;
-  margin-bottom: 22px;
-  background-color: rgba(255, 255, 255, 0.15);
-  @media (max-width: 575px) {
-    padding: 7px 10px;
-  }
-`;
