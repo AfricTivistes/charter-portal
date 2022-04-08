@@ -1,7 +1,7 @@
 ---
 title: "ADVANCING THE PAN-AFRICAN GOVERNANCE AGENDA: LESSONS FROM FIFTEEN YEARS
   OF THE CHARTER ON DEMOCRACY, ELECTIONS AND GOVERNANCE"
-description: "#ACDEG #DEMOCRACY #ELECTIONS #GOVERNANCE"
+description: "#ACDEG #Democracy #Elections #Governance"
 date: 2022-04-08 10:02:00
 image: assets/img/ecdpm.jpg
 category: Images
