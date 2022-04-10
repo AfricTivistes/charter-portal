@@ -5,14 +5,14 @@ backend:
 
 publish_mode: editorial_workflow
 media_folder: 'static/assets/img'
-public_folder: 'assets/img'
+public_folder: '/assets/img'
 show_preview_links: true
 
 collections:
   #Posts (English)
-  - name: 'posts-en' # Used in routes, e.g., /admin/collections/blog
+  - name: 'posts-en' # Used in routes, e.g., /admin/collections/news
     label: 'Posts (English)' # Used in the UI
-    folder: 'blog' # The path to the folder where the documents are stored
+    folder: 'news' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     extension: 'en.md'
@@ -59,9 +59,9 @@ collections:
       - { label: 'Body', name: 'body', widget: 'markdown' }
 
   #Posts (Français)
-  - name: 'posts-fr' # Used in routes, e.g., /admin/collections/blog
+  - name: 'posts-fr' # Used in routes, e.g., /admin/collections/news
     label: 'Posts (Français)' # Used in the UI
-    folder: 'blog' # The path to the folder where the documents are stored
+    folder: 'news' # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: '{{year}}-{{month}}-{{day}}-{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
     extension: 'fr.md'

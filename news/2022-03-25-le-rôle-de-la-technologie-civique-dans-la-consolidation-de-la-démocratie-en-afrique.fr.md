@@ -3,7 +3,7 @@ title: LE RÔLE DE LA TECHNOLOGIE CIVIQUE DANS LA CONSOLIDATION DE LA DÉMOCRATI
   EN AFRIQUE
 description: "#CivicTechFundAfrica #CharterAfrica #AfricaWeWant "
 date: 2021-12-03 12:59:02
-image: assets/img/banderole-entete-fr.jpg
+image: /assets/img/banderole-entete-fr.jpg
 category: Javascript
 background: "#7d4cdb"
 ---

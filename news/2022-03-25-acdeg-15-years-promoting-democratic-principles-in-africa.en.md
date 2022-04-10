@@ -2,7 +2,7 @@
 title: "ACDEG: 15 years promoting democratic principles in Africa"
 description: "#Democracy #Elections #Governance #CharterAfrica"
 date: 2022-04-08 04:51:58
-image: assets/img/website-primer-section-en.png
+image: /assets/img/website-primer-section-en.png
 category: Javascript
 background: "#7d4cdb"
 ---

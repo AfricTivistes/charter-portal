@@ -3,7 +3,7 @@ title: "#MoocDEG: Amplifier les voix citoyennes via le numérique par le biais d
   la formation"
 description: " #Mooc_DEG #CharterAfrica #DGTrends #Democracy #Elections #Gouvernance"
 date: 2022-03-28 12:10:00
-image: assets/img/mooc-deg-visuel1-fr.jpg
+image: /assets/img/mooc-deg-visuel1-fr.jpg
 category: Images
 background: "#353b48"
 ---
