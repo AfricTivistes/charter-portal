@@ -3,7 +3,7 @@ title: "ADVANCING THE PAN-AFRICAN GOVERNANCE AGENDA: LESSONS FROM FIFTEEN YEARS
   OF THE CHARTER ON DEMOCRACY, ELECTIONS AND GOVERNANCE"
 description: "#ACDEG #CharterAfrica #Democracy #Elections #Governance"
 date: 2022-04-08 10:02:00
-image: /assets/img/ecdpm.jpg
+image: /assets/img/acdeg.jpg
 category: Images
 background: "#353b48"
 ---
@@ -15,11 +15,13 @@ It is now fifteen years since the African countries united at the African Union 
 
 The Charter provides a roadmap for states to improve governance and democratic institutions and ensure democratic and fair elections. Thanks to this outstanding document, civil society, member states as peers and international actors now have an instrument to hold member states accountable for their obligations. 
 
+![](/assets/img/ecdpm.jpg)
+
 However, the path towards democratisation has not been an easy one over the last 15 years. Military coups, unconstitutional changes of government, highly disputed electoral outcomes and contested manipulations to constitutions have hindered this process over the last decade.
 
 *So is the ACDEG failing?* Or rather*: what can realistically be expected from – and done with – this framework in order to promote improved governance on the continent in adverse conditions? Beyond governments themselves, what role should continental and regional institutions, as well as civil society play in the implementation of ACDEG?*
 
-During this panel discussion, we will celebrate the ACDEG 15th anniversary with a moment of reflection. Guided by [Andrew Songa](https://twitter.com/drewfremen), our Civil Society Secretariat Coordinator for **[](https://www.facebook.com/The-Charter-Project-Africa-102343699086251)the Charter Project Africa,** a panel of experienced speakers will take us through the progress so far and the challenges encountered, as well as the opportunities ahead. 
+During this panel discussion, we will celebrate the ACDEG 15th anniversary with a moment of reflection. Guided by [Andrew Songa](https://twitter.com/drewfremen), our Civil Society Secretariat Coordinator for [](https://www.facebook.com/The-Charter-Project-Africa-102343699086251)**the Charter Project Africa,** a panel of experienced speakers will take us through the progress so far and the challenges encountered, as well as the opportunities ahead. 
 
 Confirmed speakers so far include:
 
