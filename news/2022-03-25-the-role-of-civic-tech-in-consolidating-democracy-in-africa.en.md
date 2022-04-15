@@ -2,9 +2,9 @@
 title: THE ROLE OF CIVIC TECH IN CONSOLIDATING DEMOCRACY IN AFRICA
 description: "#CivicTechFundAfrica #CharterAfrica #AfricaWeWant "
 date: 2021-12-02 12:00:00
+featureImage: 
 image: /assets/img/1637953654990_banderole-entete-eng.jpg
-category: Markdown
-background: "#7d4cdb"
+tags: ["CivicTechFundAfrica", "CharterAfrica", "AfricaWeWant"]
 ---
 January 2022 will mark the fifteenth anniversary of the adoption of the African Charter on Democracy, Elections and Governance (ACDEG) – an instrument that was adopted with the goal of inspiring African states to uphold the principles of good governance, public participation, the rule of law and human rights. Africa reaches this milestone in the midst of significant highs and lows in the arena of governance. On one hand, the continent has seen the successful mediation of longstanding conflicts and the ushering in of democratic dispensations that brought an end to authoritarian rule. Yet on the other hand, these successes have been fragile.  Countries such as South Sudan relapsed into conflict and required a revitalised peace agreement, and most recently in Sudan, a people’s revolution towards democracy was threatened by a military coup. 
 

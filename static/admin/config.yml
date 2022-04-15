@@ -18,8 +18,9 @@ collections:
     extension: 'en.md'
     format: frontmatter
     fields: # The fields for each document, usually in front matter
+      - { label: 'Top Title', name: 'toptitle', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'text' }
       - {
           label: 'Date',
           name: 'date',
@@ -28,32 +29,19 @@ collections:
         }
       - { label: 'image', name: 'image', widget: 'image' }
       - {
-          label: 'Category',
-          name: 'category',
-          widget: 'select',
-          options:
+          label: 'Tags',
+          name: 'tags',
+          widget: 'list',
+          default:
             [
-              'Markdown',
-              'Javascript',
-              'Images',
-              'Gatsby',
-              'Imagens',
-              'Others',
-              'Outros',
-            ],
-        }
-      - {
-          label: 'Background',
-          name: 'background',
-          widget: 'select',
-          options:
-            [
-              { label: 'Gray', value: '#353b48' },
-              { label: 'Yellow', value: '#e58e26' },
-              { label: 'Green', value: '#079992' },
-              { label: 'Purple', value: '#7d4cdb' },
-              { label: 'Red', value: '#e74c3c' },
-              { label: 'Silver', value: '#bdc3c7' },
+              'AfricaWeWant',
+              'CharterAfrica',
+              'CivicTechFundAfric',
+              'Democracy',
+              'DGTrends',
+              'Elections',
+              'Governance',
+              'Mooc_DEG'
             ],
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }
@@ -67,8 +55,9 @@ collections:
     extension: 'fr.md'
     format: frontmatter
     fields: # The fields for each document, usually in front matter
+      - { label: 'Sur Title', name: 'toptitle', widget: 'string' }
       - { label: 'Title', name: 'title', widget: 'string' }
-      - { label: 'Description', name: 'description', widget: 'string' }
+      - { label: 'Description', name: 'description', widget: 'text' }
       - {
           label: 'Date',
           name: 'date',
@@ -77,32 +66,19 @@ collections:
         }
       - { label: 'image', name: 'image', widget: 'image' }
       - {
-          label: 'Category',
-          name: 'category',
-          widget: 'select',
-          options:
+          label: 'Tags',
+          name: 'tags',
+          widget: 'list',
+          default:
             [
-              'Markdown',
-              'Javascript',
-              'Images',
-              'Gatsby',
-              'Imagens',
-              'Others',
-              'Outros',
-            ],
-        }
-      - {
-          label: 'Background',
-          name: 'background',
-          widget: 'select',
-          options:
-            [
-              { label: 'Gray', value: '#353b48' },
-              { label: 'Yellow', value: '#e58e26' },
-              { label: 'Green', value: '#079992' },
-              { label: 'Purple', value: '#7d4cdb' },
-              { label: 'Red', value: '#e74c3c' },
-              { label: 'Silver', value: '#bdc3c7' },
+              'AfricaWeWant',
+              'CharterAfrica',
+              'CivicTechFundAfric',
+              'Démocratie',
+              'DGTrends',
+              'Élections',
+              'Gouvernance',
+              'Mooc_DEG'
             ],
         }
       - { label: 'Body', name: 'body', widget: 'markdown' }

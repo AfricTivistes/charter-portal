@@ -3,9 +3,9 @@ title: LE RÔLE DE LA TECHNOLOGIE CIVIQUE DANS LA CONSOLIDATION DE LA DÉMOCRATI
   EN AFRIQUE
 description: "#CivicTechFundAfrica #CharterAfrica #AfricaWeWant "
 date: 2021-12-03 12:59:02
+featureImage: /assets/img/banderole-entete-fr.jpg
 image: /assets/img/banderole-entete-fr.jpg
-category: Javascript
-background: "#7d4cdb"
+tags: ["CivicTechFundAfrica", "CharterAfrica", "AfricaWeWant"]
 ---
 Janvier 2022 marquera le quinzième anniversaire de l’adoption de la Charte africaine de la démocratie, des élections et de la gouvernance (CADEG) – un instrument qui a été adopté dans le but d’inciter les États africains à respecter les principes de bonne gouvernance, de participation citoyenne, d’État de droit et de droits humains. L’Afrique marque cette étape importante malgré des hauts et des bas considérables dans le domaine de la gouvernance. D’une part, le continent a connu des médiations réussies de conflits de longue date et l’instauration de régimes démocratiques qui ont mis fin à des régimes autoritaires. Mais d’un autre côté, ces succès ont été fragiles.  Des pays comme le Soudan du Sud ont replongé dans le conflit et ont eu besoin d’un accord de paix revitalisé, et plus récemment au Soudan, une révolution populaire vers la démocratie a été menacée par un coup d’État militaire.
 

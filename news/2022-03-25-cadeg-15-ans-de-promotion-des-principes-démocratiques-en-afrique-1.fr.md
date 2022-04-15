@@ -2,9 +2,9 @@
 title: "CADEG: 15 ans de promotion des principes démocratiques en Afrique"
 description: "#Democratie #Elections #Gouvernance #CharterAfrica"
 date: 2022-02-04 12:30:47
+featureImage: /assets/img/website-primer-section-fr.png
 image: /assets/img/website-primer-section-fr.png
-category: Javascript
-background: "#7d4cdb"
+tags: ["Démocratie", "Élections", "Gouvernance", "CharterAfrica"]
 ---
 **Le 30 janvier 2022 a coïncidé avec le 15ème anniversaire de la Charte africaine des élections de la démocratie et de la gouvernance (CADEG). Mais qu’est-ce que vraiment la CADEG ? Lors de la journée mondiale de l’Afrique, le 25 mai 2021, un questionnaire avait été lancé sur Twitter pour mesurer la perception sur cet instrument de promotion des principes démocratiques dans le continent. Mais,  89% des répondants avait répondu par la négative. Même si notre échantillonnage est non-exhaustif,  force est de constater qu’il y a un besoin réel de vulgariser cette charte auprès des citoyens africains.**
 
