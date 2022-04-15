@@ -27,6 +27,7 @@ collections:
           widget: 'datetime',
           format: 'YYYY-MM-DD hh:mm:ss',
         }
+      - { label: 'feature Image', name: 'featureImage', widget: 'image' }
       - { label: 'image', name: 'image', widget: 'image' }
       - {
           label: 'Tags',
@@ -64,6 +65,7 @@ collections:
           widget: 'datetime',
           format: 'YYYY-MM-DD hh:mm:ss',
         }
+      - { label: 'Image d'Aperçus', name: 'featureImage', widget: 'image' }
       - { label: 'image', name: 'image', widget: 'image' }
       - {
           label: 'Tags',

@@ -30,10 +30,7 @@ const query = graphql`
         node {
           frontmatter {
             title
-            description
-            category
-            background
-            image {
+            featureImage {
               childImageSharp {
                 gatsbyImageData(quality: 100, layout: FULL_WIDTH)
               }

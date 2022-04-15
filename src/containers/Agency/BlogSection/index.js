@@ -40,7 +40,7 @@ const BlogSection = ({
         </Box>
         <Box className="row" {...row}>
           {Blog.map((post, index) => {
-            const { image: imagepath, title, date } = post.node.frontmatter
+            const { featureImage: imagepath, title, date } = post.node.frontmatter
             const { locale, slug } = post.node.fields
             const link = `/news/${slug}`
             const image = getImage(imagepath)

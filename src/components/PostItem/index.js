@@ -8,8 +8,6 @@ import * as S from './styled';
 
 const PostItem = ({
   slug,
-  background,
-  category,
   date,
   timeToRead,
   title,
@@ -72,9 +70,6 @@ const PostItem = ({
         )}
 
         <S.PostItemInfo>
-          <S.PostItemTag background={background}>
-            {category}
-          </S.PostItemTag>
           <S.PostItemDate>
             {date} • {timeToRead} min {toRead}
           </S.PostItemDate>
@@ -88,8 +83,6 @@ const PostItem = ({
 
 PostItem.propTypes = {
   slug: PropTypes.string.isRequired,
-  background: PropTypes.string,
-  category: PropTypes.string.isRequired,
   date: PropTypes.string.isRequired,
   timeToRead: PropTypes.number.isRequired,
   title: PropTypes.string.isRequired,
