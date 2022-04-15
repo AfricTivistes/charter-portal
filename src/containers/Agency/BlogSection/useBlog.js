@@ -35,6 +35,11 @@ const query = graphql`
                 gatsbyImageData(quality: 100, layout: FULL_WIDTH)
               }
             }
+            image {
+              childImageSharp {
+                gatsbyImageData(quality: 100, layout: FULL_WIDTH)
+              }
+            }
             date(formatString: "DD/MM/YYYY")
 
           }

@@ -186,3 +186,19 @@ exports.createPages = async ({ graphql, actions }) => {
     });
   });
 };
+
+exports.sourceNodes = ({ actions, schema }) => {
+  const { createTypes } = actions
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      toptitle: String
+      tags: [String]
+      featureImage: File @fileByRelativePath
+      image: File @fileByRelativePath
+    }
+
+    type MarkdownRemark implements Node {
+      frontmatter: MarkdownRemarkFrontmatter
+    }
+  `)
+}

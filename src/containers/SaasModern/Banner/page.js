@@ -15,6 +15,7 @@ const BannerSection = ({
   title,
   description,
   imageWrapper,
+  bannerToptitle,
   bannerTitle,
   bannerDescription,
   bannerImage
@@ -29,6 +30,9 @@ const BannerSection = ({
       <Container className="page">
         <Box {...row}>
           <Box {...contentWrapper}>
+            <Heading
+              content={bannerToptitle}
+            />
             <Heading
               {...title}
               content={bannerTitle}

@@ -40,10 +40,10 @@ const BlogSection = ({
         </Box>
         <Box className="row" {...row}>
           {Blog.map((post, index) => {
-            const { featureImage: imagepath, title, date } = post.node.frontmatter
+            const { featureImage, image, title, date } = post.node.frontmatter
             const { locale, slug } = post.node.fields
             const link = `/news/${slug}`
-            const image = getImage(imagepath)
+            const imagepath = getImage(featureImage && featureImage || image)
 
             return (<FeatureBlock
               key={`post_key-${index}`}
@@ -51,7 +51,7 @@ const BlogSection = ({
               className="blog__post"
               icon={
                 <GatsbyImage
-                  image={image}
+                  image={imagepath}
                   alt={`Blog Image ${post.id}`}
                   objectFit="cover"
                   className="blog__image"

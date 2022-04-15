@@ -19,6 +19,7 @@ const Post = ({ row, contentWrapper, ...props }) => {
         image={post.frontmatter.image}
       />
       <BannerSection 
+        bannerToptitle={post.frontmatter.toptitle}
         bannerTitle={post.frontmatter.title}
         bannerDescription={post.frontmatter.description}
         bannerImage={post.frontmatter.image} />
@@ -41,6 +42,7 @@ export const query = graphql`
       fields: { locale: { eq: $locale } }
     ) {
       frontmatter {
+        toptitle
         title
         description
         image {
