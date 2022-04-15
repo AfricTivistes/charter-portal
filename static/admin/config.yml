@@ -33,6 +33,9 @@ collections:
           label: 'Tags',
           name: 'tags',
           widget: 'list',
+          summary: '{{fields.tag}}',
+          collapsed: true,
+          field: { label: 'tag', name: 'tag', widget: 'string' },
           default:
             [
               'AfricaWeWant',
@@ -65,12 +68,15 @@ collections:
           widget: 'datetime',
           format: 'YYYY-MM-DD hh:mm:ss',
         }
-      - { label: 'Image d'Aperçus', name: 'featureImage', widget: 'image' }
+      - { label: "Image d'Aperçus", name: 'featureImage', widget: 'image' }
       - { label: 'image', name: 'image', widget: 'image' }
       - {
           label: 'Tags',
           name: 'tags',
           widget: 'list',
+          summary: '{{fields.tag}}',
+          collapsed: true,
+          field: { label: 'tag', name: 'tag', widget: 'string' },
           default:
             [
               'AfricaWeWant',
