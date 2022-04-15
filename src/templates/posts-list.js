@@ -29,8 +29,6 @@ const Blog = props => {
           ({
             node: {
               frontmatter: {
-                background,
-                category,
                 date,
                 description,
                 title,
@@ -42,8 +40,6 @@ const Blog = props => {
           }) => (
             <PostItem
               slug={`/news/${slug}`}
-              background={background}
-              category={category}
               date={date}
               timeToRead={timeToRead}
               title={title}
@@ -83,8 +79,6 @@ export const query = graphql`
           frontmatter {
             title
             description
-            category
-            background
             image {
               childImageSharp {
                 gatsbyImageData(quality: 100, layout: FULL_WIDTH)
