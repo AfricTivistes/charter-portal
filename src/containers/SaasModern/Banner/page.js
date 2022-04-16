@@ -12,6 +12,7 @@ import { BannerWrapper } from './banner.style';
 const BannerSection = ({
   row,
   contentWrapper,
+  topTitle,
   title,
   description,
   imageWrapper,
@@ -31,6 +32,7 @@ const BannerSection = ({
         <Box {...row}>
           <Box {...contentWrapper}>
             <Heading
+              {...topTitle}
               content={bannerToptitle}
             />
             <Heading
@@ -61,6 +63,7 @@ BannerSection.propTypes = {
   contentWrapper: PropTypes.object,
   discountAmount: PropTypes.object,
   discountText: PropTypes.object,
+  topTitle: PropTypes.object,
   title: PropTypes.object,
   description: PropTypes.object,
   imageWrapper: PropTypes.object,
@@ -83,6 +86,13 @@ BannerSection.defaultProps = {
   },
   imageWrapper: {
     width: '100%',
+  },
+  topTitle: {
+    fontSize: ['12px', '14px', '14px', '16px', '18px'],
+    fontWeight: 'normal',
+    textAlign: ['center', 'left'],
+    pl: ['0px', '100px'],
+    color: '#F8D761',
   },
   title: {
     fontSize: ['24px', '32px', '40px', '42px', '46px'],

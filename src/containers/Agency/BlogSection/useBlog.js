@@ -29,6 +29,7 @@ const query = graphql`
       edges {
         node {
           frontmatter {
+            toptitle
             title
             featureImage {
               childImageSharp {

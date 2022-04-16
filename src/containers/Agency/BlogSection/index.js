@@ -18,6 +18,7 @@ const BlogSection = ({
   sectionHeader,
   sectionTitle,
   sectionSubTitle,
+  topTitle,
   blogTitle,
   blogMeta,
 }) => {
@@ -40,7 +41,7 @@ const BlogSection = ({
         </Box>
         <Box className="row" {...row}>
           {Blog.map((post, index) => {
-            const { featureImage, image, title, date } = post.node.frontmatter
+            const { featureImage, image, toptitle, title, date } = post.node.frontmatter
             const { locale, slug } = post.node.fields
             const link = `/news/${slug}`
             const imagepath = getImage(featureImage && featureImage || image)
@@ -58,9 +59,12 @@ const BlogSection = ({
                 />
               }
               title={
-                <Link href={locales[locale].default ? link : `/${locale}${link}`} {...blogTitle} >
-                  {title}
-                </Link>
+                <Box>
+                  <Text content={toptitle} {...topTitle} />
+                  <Link href={locales[locale].default ? link : `/${locale}${link}`} {...blogTitle} >
+                    {title}
+                  </Link>
+                </Box>
               }
               description={<Text content={date} {...blogMeta} />}
             />
@@ -78,6 +82,7 @@ BlogSection.propTypes = {
   col: PropTypes.object,
   sectionTitle: PropTypes.object,
   sectionSubTitle: PropTypes.object,
+  topTitle: PropTypes.object,
   blogTitle: PropTypes.object,
   blogMeta: PropTypes.object,
 };
@@ -115,10 +120,15 @@ BlogSection.defaultProps = {
     ml: '-12px',
     mr: '-12px',
   },
+  topTitle: {
+    fontSize: ['12px', '14px'],
+    fontWeight: '600',
+    color: '#F8D761',
+  },
   // Blog post title default style
   blogTitle: {
-    fontSize: ['20px', '24px'],
-    fontWeight: '400',
+    fontSize: ['18px', '22px'],
+    fontWeight: '700',
     color: '#ffffff',
     lineHeight: '1.5',
     mb: '10px',
