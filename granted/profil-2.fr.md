@@ -1,6 +1,6 @@
 ---
-name: "Profil 1"
-project: "Project 1"
+title: "Profil 2"
+project: "Project 2"
 image: /assets/img/member-1.jpg
 social:
   - icon: "flaticon-facebook-logo"
