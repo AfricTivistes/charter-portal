@@ -39,7 +39,7 @@ const TeamSection = ({
         </Box>
         <Box className="row" {...row}>
           {Data.map((member, index) => {
-            const { image, name, project, social } = member.node.frontmatter
+            const { image, title, project, social } = member.node.frontmatter
             const imagepath = getImage(image)
             return (<Box className="col" {...col} key={`team_key-${index}`}>
                 <FeatureBlock
@@ -53,7 +53,7 @@ const TeamSection = ({
                     />
                   }
                   contentStyle={contentStyle}
-                  title={<Heading content={name} {...memberName} />}
+                  title={<Heading content={title} {...memberName} />}
                   description={
                     <Fragment>
                       <Text content={project} {...designation} />

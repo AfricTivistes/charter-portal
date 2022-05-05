@@ -24,12 +24,11 @@ const query = graphql`
         fileAbsolutePath: {regex: "/(granted)\/.*[.]md$/"}
       }
       sort: { fields: [frontmatter___project], order: DESC }
-      limit: 6
     ) {
       edges {
         node {
           frontmatter {
-            name
+            title
             project
             social {
               icon
