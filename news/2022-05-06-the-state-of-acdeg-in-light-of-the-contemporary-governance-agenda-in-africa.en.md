@@ -4,7 +4,7 @@ title: "The state of ACDEG in light of the contemporary governance agenda in Afr
 description: "\n"
 date: 2022-05-06 10:21:36
 featureImage: /assets/img/1.png
-image: /assets/img/2.png
+image: /assets/img/ecdpm.jpg
 tags:
   - AfricaWeWant
   - CharterAfrica
