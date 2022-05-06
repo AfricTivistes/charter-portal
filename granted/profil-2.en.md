@@ -11,5 +11,6 @@ social:
     url: "#"
   - icon: "flaticon-dribble-logo"
     url: "#"
+granted: true
 ---
 

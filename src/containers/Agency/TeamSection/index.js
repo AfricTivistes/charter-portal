@@ -9,6 +9,7 @@ import Container from '../../../common/components/UI/Container';
 import TeamSectionWrapper, { SocialLinks } from './teamSection.style';
 import useTranslations from '../../../components/useTranslations';
 import useTeamSection from './useTeamSection'
+import locales from '../../../../config/i18n';
 
 const TeamSection = ({
   row,
@@ -41,16 +42,20 @@ const TeamSection = ({
           {Data.map((member, index) => {
             const { image, title, project, social } = member.node.frontmatter
             const imagepath = getImage(image)
+            const { locale, slug } = member.node.fields
+            const link = `/granted/${slug}`
             return (<Box className="col" {...col} key={`team_key-${index}`}>
                 <FeatureBlock
                   id={`member-${member.id}`}
                   className="team__member"
                   icon={
-                    <GatsbyImage
-                      image={imagepath}
-                      alt={`Granted photo ${member.id}`}
-                      className="member__photo"
-                    />
+                    <a href={locales[locale].default ? link : `/${locale}${link}`}>
+                      <GatsbyImage
+                        image={imagepath}
+                        alt={`Granted photo ${member.id}`}
+                        className="member__photo"
+                      />
+                    </a>
                   }
                   contentStyle={contentStyle}
                   title={<Heading content={title} {...memberName} />}
