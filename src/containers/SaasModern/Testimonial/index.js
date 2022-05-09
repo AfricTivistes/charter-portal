@@ -1,6 +1,6 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
-import { getImage, GatsbyImage } from "gatsby-plugin-image";
+// import { useStaticQuery, graphql } from 'gatsby';
+// import { getImage, GatsbyImage } from "gatsby-plugin-image";
 import PropTypes from 'prop-types';
 import Box from '../../../common/components/Box';
 import Text from '../../../common/components/Text';
@@ -14,7 +14,7 @@ import {
   TestimonialItem,
   TestimonialMeta,
   AuthorInfo,
-  AuthorImage,
+  // AuthorImage,
 } from './testimonial.style';
 
 import useTESTIMONIALS from './useTESTIMONIALS';
@@ -68,7 +68,7 @@ const TestimonialSection = ({
             <>
               {TESTIMONIALS.map((item, index) => {
 
-                const imageAvatar = getImage(item.avatar)
+                // const imageAvatar = getImage(item.avatar)
               
                 return(
                 <GlideSlide key={`testimonial-slide-${index}`}>
@@ -77,12 +77,12 @@ const TestimonialSection = ({
                     <Text content={item.review} {...review} />
                     <TestimonialMeta>
                       <AuthorInfo>
-                        <AuthorImage>
+                        {/* <AuthorImage>
                           <GatsbyImage
                             image={imageAvatar}
                             alt={`reviewer-image-${index}`}
                           />
-                        </AuthorImage>
+                        </AuthorImage> */}
                         <Box>
                           <Heading as="h3" content={item.name} {...name} />
                           <Text content={item.designation} {...designation} />

@@ -2,7 +2,7 @@ import React from 'react';
 import { useStaticQuery, graphql } from 'gatsby';
 import { getImage, GatsbyImage } from "gatsby-plugin-image";
 import PropTypes from 'prop-types';
-import Icon from 'react-icons-kit';
+// import Icon from 'react-icons-kit';
 import Fade from 'react-reveal/Fade';
 import Box from '../../../common/components/Box';
 import Text from '../../../common/components/Text';
@@ -11,15 +11,13 @@ import Button from '../../../common/components/Button';
 import Container from '../../../common/components/UI/Container';
 import TiltShape from '../TiltShape';
 import { BannerWrapper } from './banner.style';
-import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
+// import { ic_play_circle_filled } from 'react-icons-kit/md/ic_play_circle_filled';
 
 import useTranslations from '../../../components/useTranslations';
 
 const BannerSection = ({
   row,
   contentWrapper,
-  discountAmount,
-  discountText,
   title,
   description,
   imageWrapper,
@@ -43,7 +41,7 @@ const BannerSection = ({
     bannerTitle,
     bannerDescription,
     bannerButton,
-    buttonWatch,
+    // buttonWatch,
     bannerUrl
   } = useTranslations();
 
@@ -67,14 +65,14 @@ const BannerSection = ({
               <a href={bannerUrl}>
                 <Button {...fillButton} title={bannerButton} />
               </a>
-              <a href="#1">
+              {/* <a href="#1">
                 <Button
                   {...button}
                   title={buttonWatch}
                   icon={<Icon icon={ic_play_circle_filled} size={30} />}
                   iconPosition="left"
                 />
-              </a>
+              </a> */}
             </Box>
           </Box>
           <Box {...imageWrapper}>

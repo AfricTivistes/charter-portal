@@ -74,27 +74,33 @@
   "CLIENTS": [
     {
       "image": "../../src/common/assets/image/portfolio/client-1.png",
-      "title": "AfricTivistes"
+      "title": "AfricTivistes",
+      "url": "https://www.africtivistes.com/"
     },
     {
       "image": "../../src/common/assets/image/portfolio/client-2.png",
-      "title": "Code for Africa (CfA)"
+      "title": "Code for Africa (CfA)",
+      "url": "https://www.code-africa.net/"
     },
     {
       "image": "../../src/common/assets/image/portfolio/client-3.png",
-      "title": "Democracy Works Foundation (DWF)"
+      "title": "Democracy Works Foundation (DWF)",
+      "url": "https://democracyworks.org.za/"
     },
     {
       "image": "../../src/common/assets/image/portfolio/client-4.png",
-      "title": "L’Institut Gorée"
+      "title": "L’Institut Gorée",
+      "url": "https://goreeinstitut.org/"
     },
     {
       "image": "../../src/common/assets/image/portfolio/client-5.png",
-      "title": "Centre européen de gestion des politiques de développement (ECDPM)"
+      "title": "Centre européen de gestion des politiques de développement (ECDPM)",
+      "url": "https://ecdpm.org"
     },
     {
       "image": "../../src/common/assets/image/portfolio/client-6.png",
-      "title": "European Partnership for Democracy (EPD)"
+      "title": "European Partnership for Democracy (EPD)",
+      "url": "https://epd.eu/"
     }
   ],
   "TESTIMONIALS": [

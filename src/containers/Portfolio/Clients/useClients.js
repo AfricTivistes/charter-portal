@@ -36,6 +36,7 @@ const query = graphql`
           translations: childMenuJson {
             CLIENTS {
               title
+              url
               image {
                   publicURL
               }

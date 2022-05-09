@@ -36,13 +36,15 @@ const ClientsSection = ({
         </Box>
         <Box {...row}>
           {CLIENTS.map((item, index) => (
-            <ClientsImage key={`client-${index}`}>
-              <Image
-                src={item.image.publicURL}
-                alt={item.title}
-                title={item.title}
-              />
-            </ClientsImage>
+            <a href={item.url} key={index} target="_blank" rel="noreferrer">
+              <ClientsImage key={`client-${index}`}>
+                <Image
+                  src={item.image.publicURL}
+                  alt={item.title}
+                  title={item.title}
+                />
+              </ClientsImage>
+            </a>
           ))}
         </Box>
       </Container>

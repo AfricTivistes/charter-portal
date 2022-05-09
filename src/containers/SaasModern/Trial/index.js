@@ -2,7 +2,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import Box from '../../../common/components/Box';
 import Text from '../../../common/components/Text';
-import Heading from '../../../common/components/Heading';
+// import Heading from '../../../common/components/Heading';
 import Image from '../../../common/components/Image';
 import Container from '../../../common/components/UI/Container';
 import useLogo from './useLogo';
@@ -34,10 +34,10 @@ const TrialSection = ({
             <Image {...ImageOne} src={logo} alt="VendorLogos" />
           </Box>
           <Box {...textArea}>
-            <Heading
+            {/* <Heading
               {...title}
               content={trialTitle}
-            />
+            /> */}
             <Text
               {...description}
               content={trialDescription}

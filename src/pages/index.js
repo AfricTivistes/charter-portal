@@ -13,12 +13,12 @@ import BannerSection from '../containers/SaasModern/Banner';
 import Navbar from '../containers/SaasModern/Navbar';
 import WorkingProcessSection from '../containers/SaasModern/WorkingProcess';
 import BlogSection from '../containers/Agency/BlogSection';
-import PartnerSection from '../containers/SaasModern/Partner';
-import FaqSection from '../containers/SaasModern/Faq';
+// import PartnerSection from '../containers/SaasModern/Partner';
+// import FaqSection from '../containers/SaasModern/Faq';
 import ClientsSection from '../containers/Portfolio/Clients';
-import InfoSection from '../containers/SaasModern/Info';
+// import InfoSection from '../containers/SaasModern/Info';
 import FeatureSection from '../containers/SaasModern/Feature';
-import UpdateScreen from '../containers/SaasModern/UpdateScreen';
+// import UpdateScreen from '../containers/SaasModern/UpdateScreen';
 import TestimonialSection from '../containers/SaasModern/Testimonial';
 import TrialSection from '../containers/SaasModern/Trial';
 import Footer from '../containers/SaasModern/Footer';
@@ -48,13 +48,13 @@ const App = () => {
           </Sticky>
           <BannerSection />
           <WorkingProcessSection />
-          <InfoSection />
+          {/* <InfoSection /> */}
           <FeatureSection />
-          <UpdateScreen />
+          {/* <UpdateScreen /> */}
           <BlogSection />
-          <PartnerSection />
+          {/* <PartnerSection /> */}
           <TestimonialSection />
-          <FaqSection />
+          {/* <FaqSection /> */}
           <ClientsSection />
           <NewsletterSection />
           <TrialSection />
