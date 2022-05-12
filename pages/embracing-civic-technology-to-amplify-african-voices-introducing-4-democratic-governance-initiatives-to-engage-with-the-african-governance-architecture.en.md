@@ -20,7 +20,7 @@ Our overall objectives include: 
 * Strengthening the ability of civic initiatives to use knowledge, data and technology in their effort to monitor and promote the implementation of the [African Charter on Democracy, Elections and Governance (ACDEG)](https://au.int/en/treaties/african-charter-democracy-elections-and-governance); 
 * Increasing collaboration between AU policymakers, national decision-makers and civil society organisations on matters of democratic governance.
 
-On 30 November 2021 we launched the [CivicTech Fund Africa](https://civictechfund.africa/), a mechanism designed to amplify the work of young African innovators who seek to use technology as a way of enhancing public participation and democratic processes at the local and continental levels. We will achieve this by providing seed grants, technology and data support to the innovators who successfully apply for the fund.
+On 30 November 2021 we launched the [CivicTech Fund Africa](https://civictechfund.africa/), a mechanism designed to amplify the work of young African innovators who seek to use technology as a way of enhancing public participation and democratic processes at the local and continental levels. We will achieve this by providing seed grants, technology and data support to successful innovators.
 
 We are therefore delighted to invite you to the unveiling of the first  4 successful teams selected under the grant “[Civic Tech and the African Governance Architecture (AGA)](https://civictechfund.africa/aga/)”. 
 
