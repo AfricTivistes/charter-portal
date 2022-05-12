@@ -32,17 +32,17 @@ Moderator: Andrew Songa, Charter Project Africa Civil Society Secretariat Coordi
 
 Schedule:
 
-14.30 Introduction by moderator Andrew Songa, harter Project Africa Civil Society Secretariat Coordinator
+14.30 Introduction by moderator Andrew Songa, Charter Project Africa Civil Society Secretariat Coordinator;
 
-14.33 Welcome remarks from Alban Biaussat, Senior Policy & Programme Manager for the European Union Delegation to the African Union
+14.33 Welcome remarks from Alban Biaussat, Senior Policy & Programme Manager for the European Union Delegation to the African Union;
 
-14.38 Welcome remarks from a representative of the Deutsche Gesellschaft für Internationale Zusammenarbeit (GiZ)
+14.38 Welcome remarks from a representative of the Deutsche Gesellschaft für Internationale Zusammenarbeit (GiZ) (tbc);
 
-14.43 Remarks from Amb. Salah Hammad, AU’s African Governance Architecture-African Peace and Security Architecture (AGA-APSA)
+14.43 Remarks from Amb. Salah Hammad, AU’s African Governance Architecture-African Peace and Security Architecture (AGA-APSA);
 
-14.48 Presentation by the 4 successful applicants
+14.48 Presentation by the 4 successful applicants;
 
-15:28 Concluding remarks from moderator & next steps
+15:28 Concluding remarks from moderator & next steps.
 
 
 
