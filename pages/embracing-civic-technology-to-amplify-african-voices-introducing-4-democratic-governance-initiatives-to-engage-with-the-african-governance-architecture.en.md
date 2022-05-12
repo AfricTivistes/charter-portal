@@ -40,13 +40,13 @@ Schedule:
 
 14.43 Remarks from Amb. Salah Hammad, AU’s African Governance Architecture-African Peace and Security Architecture (AGA-APSA);
 
-14.48 Presentation by the 4 successful applicants;
+14.48 Presentation by the 4 successful organisations;
 
 15:28 Concluding remarks from moderator & next steps.
 
 
 
-Join us to discover how citizens’ voices can be empowered by civic technology !
+Join us to learn more on how civic tech can empower citizens’ voices!
 
 
 
