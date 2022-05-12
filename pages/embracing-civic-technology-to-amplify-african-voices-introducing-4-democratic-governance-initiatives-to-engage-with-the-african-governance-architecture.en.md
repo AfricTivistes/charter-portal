@@ -30,8 +30,6 @@ Programme
 
 Moderator: Andrew Songa, Charter Project Africa Civil Society Secretariat Coordinator
 
-Organisations presented: MS-Training Centre for Development Cooperation, Dear South Africa, Mzalendo Trust, SIVIO Institute
-
 Schedule:
 
 14.30 Introduction by moderator Andrew Songa, harter Project Africa Civil Society Secretariat Coordinator
@@ -42,18 +40,19 @@ Schedule:
 
 14.43 Remarks from Amb. Salah Hammad, AU’s African Governance Architecture-African Peace and Security Architecture (AGA-APSA)
 
-14.48 Presentation of the organisations selected:
+14.48 Presentation by the 4 successful applicants
 
-* MS-Training Centre for Development Cooperation 
-* Dear South Africa
-* Mzalendo Trust
-* SIVIO Institute
+15:28 Concluding remarks from moderator & next steps
 
-15:28 Concluding remarks from moderator & next steps (2 minutes)
+
 
 Join us to discover how citizens’ voices can be empowered by civic technology !
 
+
+
 Register here
+
+
 
 For any inquiry, contact us at info@charter.africa
 
