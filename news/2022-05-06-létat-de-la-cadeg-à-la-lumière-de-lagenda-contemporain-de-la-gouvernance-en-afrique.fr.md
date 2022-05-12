@@ -2,7 +2,7 @@
 toptitle: 15 années de CADEG
 title: L'état de la CADEG à la lumière de l'agenda contemporain de la
   gouvernance en Afrique
-description: "Draft "
+description: " "
 date: 2022-05-06 10:33:05
 featureImage: /assets/img/ecdpm.jpg
 image: /assets/img/ecdpm.jpg
