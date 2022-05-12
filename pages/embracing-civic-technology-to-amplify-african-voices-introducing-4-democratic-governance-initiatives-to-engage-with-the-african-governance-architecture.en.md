@@ -54,6 +54,6 @@ Register here
 
 
 
-For any inquiry, contact us at info@charter.africa
+For any inquiry, contact us at info@charter.africa.
 
 \*You should receive a confirmation email after registration. If you do not receive it, we kindly ask you to check the spam
