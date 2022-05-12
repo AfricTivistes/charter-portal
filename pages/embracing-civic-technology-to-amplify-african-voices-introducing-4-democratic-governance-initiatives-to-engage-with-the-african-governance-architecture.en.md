@@ -24,7 +24,7 @@ On 30 November 2021 we launched the [CivicTech Fund Africa](https://civictechfun
 
 We are therefore delighted to invite you to the unveiling of the first  4 successful teams selected under the grant “[Civic Tech and the African Governance Architecture (AGA)](https://civictechfund.africa/aga/)”. 
 
-The organisations will be empowered to use   civic technology to strengthen citizens’ as well as civil society's engagement with national and continental decision-makers. . 
+The organisations will be empowered to use civic technology to strengthen citizens’ as well as civil society's engagement with national and continental decision-makers. During the event they will present their civic tech solution and how they intend to use it for a better participation of the African people to the local and continental decision making processes. 
 
 Programme
 
@@ -44,15 +44,9 @@ Schedule:
 
 15:28 Concluding remarks from moderator & next steps.
 
-
-
 Join us to learn more on how civic tech can empower citizens’ voices!
 
-
-
 Register here
-
-
 
 For any inquiry, contact us at info@charter.africa.
 
