@@ -25,11 +25,6 @@
       "label": "Actualités",
       "path": "/fr/#blogSection",
       "offset": "0"
-    },
-    {
-      "label": "FAQ",
-      "path": "/fr/#faq_section",
-      "offset": "0"
     }
   ],
   "PROCESS_ITEMS": [
