@@ -21,7 +21,7 @@ import FeatureSection from '../containers/SaasModern/Feature';
 // import UpdateScreen from '../containers/SaasModern/UpdateScreen';
 import TestimonialSection from '../containers/SaasModern/Testimonial';
 import TrialSection from '../containers/SaasModern/Trial';
-import Footer from '../containers/SaasModern/Footer';
+import Footer from '../containers/SaasModern/Footer/simple';
 import Seo from '../components/seo';
 import useTranslations from '../components/useTranslations';
 import NewsletterSection from '../containers/Agency/NewsletterSection';

@@ -86,6 +86,7 @@ const query = graphql`
 
             trialTitle
             trialDescription
+            footerBuild
 
             hello
             subline
