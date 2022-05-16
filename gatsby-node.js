@@ -89,6 +89,7 @@ exports.createPages = async ({ graphql, actions }) => {
     `./src/templates/posts-list.js`,
   );
   const pageTemplate = path.resolve(`./src/templates/page.js`);
+  const activityTemplate = path.resolve(`./src/templates/activity.js`);
 
   const result = await graphql(`
     {
@@ -105,6 +106,7 @@ exports.createPages = async ({ graphql, actions }) => {
             frontmatter {
               title
               page
+              activity
             }
           }
         }
@@ -136,15 +138,16 @@ exports.createPages = async ({ graphql, actions }) => {
 
     // Check if it's page (to differentiate post and page)
     const isPage = file.frontmatter.page;
+    const isActivity = file.frontmatter.activity;
 
     // Setting a template for page or post depending on the content
-    const template = isPage ? pageTemplate : postTemplate;
+    const template = isActivity ? activityTemplate : isPage ? pageTemplate : postTemplate;
 
     // Count posts
     postsTotal = isPage ? postsTotal + 0 : postsTotal + 1;
 
     createPage({
-      path: localizedSlug({ isDefault, locale, slug, isPage }),
+      path: localizedSlug({ isDefault, locale, slug, isPage, isActivity }),
       component: template,
       context: {
         // Pass both the "title" and "locale" to find a unique file

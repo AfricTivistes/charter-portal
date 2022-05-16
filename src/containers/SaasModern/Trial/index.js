@@ -38,10 +38,10 @@ const TrialSection = ({
               {...title}
               content={trialTitle}
             /> */}
-            <Text
+            {/* <Text
               {...description}
               content={trialDescription}
-            />
+            /> */}
           </Box>
         </Box>
       </Container>

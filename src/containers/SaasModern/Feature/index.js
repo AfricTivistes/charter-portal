@@ -1,14 +1,16 @@
 import React from 'react';
-import { useStaticQuery, graphql } from 'gatsby';
+import {Link} from 'gatsby'
+import { getImage, GatsbyImage } from "gatsby-plugin-image";
 import PropTypes from 'prop-types';
 import Box from '../../../common/components/Box';
 import Text from '../../../common/components/Text';
 import Heading from '../../../common/components/Heading';
 import FeatureBlock from '../../../common/components/FeatureBlock';
-import Image from '../../../common/components/Image';
 import Container from '../../../common/components/UI/Container';
 
 import useTranslations from '../../../components/useTranslations';
+import locales from '../../../../config/i18n';
+import useFeature from './useFeature'
 
 const FeatureSection = ({
   sectionWrapper,
@@ -23,19 +25,7 @@ const FeatureSection = ({
   featureTitle,
   featureDescription,
 }) => {
-  const Data = useStaticQuery(graphql`
-    query {
-      saasModernJson {
-        FEATURES {
-          title
-          description
-          icon {
-            publicURL
-          }
-        }
-      }
-    }
-  `);
+  const Data = useFeature();
 
   const {
     featTitle,
@@ -51,26 +41,40 @@ const FeatureSection = ({
         </Box>
 
         <Box {...row}>
-          {Data.saasModernJson.FEATURES.map((item, index) => (
-            <Box {...col} key={`feature-item-${index}`}>
+          {Data.map((item, index) => {
+
+            const { title, description, featureImage } = item.node.frontmatter
+            const { locale, slug } = item.node.fields
+            const link = `/activity/${slug}`
+            const imagepath = getImage(featureImage)
+          
+          return(<Box {...col} key={`feature-item-${index}`}>
               <FeatureBlock
                 icon={
-                  <Image
-                    src={item.icon.publicURL}
+                <Link href={locales[locale].default ? link : `/${locale}${link}`} >
+                  <GatsbyImage
+                    image={imagepath}
                     alt={`feature-item-icon-${index + 1}`}
                   />
+                </Link>
                 }
                 wrapperStyle={FeatureItemStyle}
                 iconStyle={iconStyle}
                 contentStyle={contentStyle}
                 iconPosition="left"
-                title={<Heading content={item.title} {...featureTitle} />}
+                title={
+                  <Link href={locales[locale].default ? link : `/${locale}${link}`} >
+                    <Heading content={title} {...featureTitle} />
+                  </Link>
+                }
                 description={
-                  <Text content={item.description} {...featureDescription} />
+                  <Link href={locales[locale].default ? link : `/${locale}${link}`} >
+                    <Text content={description} {...featureDescription} />
+                  </Link>
                 }
               />
             </Box>
-          ))}
+          )})}
         </Box>
       </Container>
     </Box>
