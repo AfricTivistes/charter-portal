@@ -9,7 +9,7 @@ import {
 import Sticky from 'react-stickynode';
 import { DrawerProvider } from '../common/contexts/DrawerContext';
 import Navbar from '../containers/SaasModern/Navbar';
-import Footer from '../containers/SaasModern/Footer';
+import Footer from '../containers/SaasModern/Footer/simple';
 
 const Layout = ({ children }) => {
 

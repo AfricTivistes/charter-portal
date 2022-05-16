@@ -2,7 +2,10 @@
 exports.removeTrailingSlash = path =>
   path === `/` ? path : path.replace(/\/$/, ``);
 
-exports.localizedSlug = ({ isDefault, locale, slug, isPage }) => {
+exports.localizedSlug = ({ isDefault, locale, slug, isPage, isActivity }) => {
+  if (isActivity) {
+    return isDefault ? `/activity/${slug}` : `/${locale}/activity/${slug}`;
+  }
   if (isPage) {
     return isDefault ? `/${slug}` : `/${locale}/${slug}`;
   }
