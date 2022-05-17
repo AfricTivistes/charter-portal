@@ -1,7 +1,6 @@
 ---
 toptitle: ADVANCING THE PAN-AFRICAN GOVERNANCE AGENDA
-title: LESSONS FROM FIFTEEN YEARS OF THE CHARTER ON DEMOCRACY, ELECTIONS AND
-  GOVERNANCE
+title: "Lessons from 15 fifteen years of the ACDEG "
 description: "#ACDEG #CharterAfrica #Democracy #Elections #Governance"
 date: 2022-04-08 10:02:00
 featureImage: /assets/img/ecdpm.jpg
