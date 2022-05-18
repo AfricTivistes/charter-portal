@@ -44,7 +44,12 @@ des programmes pour la Délégation de l'Union européenne auprès de l'Union af
 
 14.43 Remarques de l'Amb. Salah Hammad, Architecture de gouvernance africaine - Architecture africaine de paix et de sécurité (AGA-APSA) de l'UA;
 
-14.48 Présentation par les 4 organisations sélectionnées;
+14.48 Présentation par les 4 organisations sélectionnées et questions-réponses:
+
+* MS-Training Centre for Development Cooperation 
+* Dear South Africa
+* Mzalendo Trust
+* SIVIO Institute
 
 15:28 Remarques finales du modérateur et prochaines étapes .
 
