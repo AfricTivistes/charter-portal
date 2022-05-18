@@ -40,7 +40,12 @@ Schedule:
 
 14.43 Remarks from Amb. Salah Hammad, AU’s African Governance Architecture-African Peace and Security Architecture (AGA-APSA);
 
-14.48 Presentation by the 4 successful organisations;
+14.48 Presentation by the 4 successful organisations and Q&A:
+
+* MS-Training Centre for Development Cooperation 
+* Dear South Africa
+* Mzalendo Trust
+* SIVIO Institute
 
 15:28 Concluding remarks from moderator & next steps.
 
