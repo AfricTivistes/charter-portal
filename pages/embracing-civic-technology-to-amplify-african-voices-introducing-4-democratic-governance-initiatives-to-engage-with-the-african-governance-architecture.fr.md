@@ -5,7 +5,7 @@ title: "Embracing Civic Technology to Amplify African Voices: Introducing 4
 date: 2022-05-12 12:49:38
 page: true
 ---
-![](/assets/img/aga-winners-event-1-.png)
+![](/assets/img/1.png)
 
 \*Interprétation en français disponible pendant l’événement\*
 
