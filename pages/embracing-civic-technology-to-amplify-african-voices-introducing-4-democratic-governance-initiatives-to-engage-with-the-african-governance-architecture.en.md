@@ -5,7 +5,7 @@ title: "Embracing Civic Technology to Amplify African Voices: Introducing 4
 date: 2022-05-11 04:24:14
 page: true
 ---
-![](/assets/img/aga-winners-event-1-.png)
+![](/assets/img/1.png)
 
 Join us online on June 7, 14.30 EAT 
 
