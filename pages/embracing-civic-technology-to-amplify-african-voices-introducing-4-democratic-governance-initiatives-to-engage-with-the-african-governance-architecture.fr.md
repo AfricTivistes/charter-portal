@@ -42,7 +42,7 @@ des programmes pour la Délégation de l'Union européenne auprès de l'Union af
 
 14.38 Remarques de bienvenue d'un représentant de la Deutsche Gesellschaft für Internationale Zusammenarbeit (GiZ) (à confirmer);
 
-14.43 Remarques de l'Amb. Salah Hammad, Architecture de gouvernance africaine - Architecture africaine de paix et de sécurité (AGA-APSA) de l'UA;
+14.43 Remarques d'un représentant de l' Architecture de gouvernance africaine - Architecture africaine de paix et de sécurité (AGA-APSA) de l'UA (à confirmer);
 
 14.48 Présentation par les 4 organisations sélectionnées et questions-réponses:
 
