@@ -36,9 +36,9 @@ Schedule:
 
 14.33 Welcome remarks from Alban Biaussat, Senior Policy & Programme Manager for the European Union Delegation to the African Union;
 
-14.38 Welcome remarks from a representative of the Deutsche Gesellschaft für Internationale Zusammenarbeit (GiZ) (tbc);
+14.38 Welcome remarks from a representative of the Deutsche Gesellschaft für Internationale Zusammenarbeit (GiZ) (TBC);
 
-14.43 Remarks from Amb. Salah Hammad, AU’s African Governance Architecture-African Peace and Security Architecture (AGA-APSA);
+14.43 Remarks from a representative of the AU’s African Governance Architecture-African Peace and Security Architecture (AGA-APSA) (TBC);
 
 14.48 Presentation by the 4 successful organisations and Q&A:
 
