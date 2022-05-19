@@ -42,10 +42,10 @@ Schedule:
 
 14.48 Presentation by the 4 successful organisations and Q&A:
 
-* MS-Training Centre for Development Cooperation 
-* Dear South Africa
-* Mzalendo Trust
-* SIVIO Institute
+* [MS-Training Centre for Development Cooperation ](https://mstcdc.or.tz/)
+* [Dear South Africa](https://dearsafrica.org/)
+* [Mzalendo Trust](https://mzalendo.com/)
+* [SIVIO Institute](https://www.sivioinstitute.org/)
 
 15:28 Concluding remarks from moderator & next steps.
 
