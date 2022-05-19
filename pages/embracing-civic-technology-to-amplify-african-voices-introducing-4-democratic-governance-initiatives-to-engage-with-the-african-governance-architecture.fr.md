@@ -46,10 +46,10 @@ des programmes pour la Délégation de l'Union européenne auprès de l'Union af
 
 14.48 Présentation par les 4 organisations sélectionnées et questions-réponses:
 
-* MS-Training Centre for Development Cooperation 
-* Dear South Africa
-* Mzalendo Trust
-* SIVIO Institute
+* [MS-Training Centre for Development Cooperation ](https://mstcdc.or.tz/)
+* [Dear South Africa](https://dearsafrica.org/)
+* [Mzalendo Trust](https://mzalendo.com/)
+* [SIVIO Institute](https://www.sivioinstitute.org/)
 
 15:28 Remarques finales du modérateur et prochaines étapes .
 
