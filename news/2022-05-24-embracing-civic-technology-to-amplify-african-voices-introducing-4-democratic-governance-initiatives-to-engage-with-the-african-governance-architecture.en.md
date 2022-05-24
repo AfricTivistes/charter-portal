@@ -4,8 +4,9 @@ title: "Embracing Civic Technology to Amplify African Voices: Introducing 4
   Democratic Governance Initiatives to engage with the African Governance
   Architecture "
 description: >-
-  We invite you to the unveiling of the first 4 successful teams selected under
-  the grant Civic Tech and the African Governance Architecture (AGA). 
+  We are glad to invite you to the unveiling of the first 4 successful teams
+  selected under the grant Civic Tech and the African Governance Architecture
+  (AGA). 
 
 
   The organisations will be empowered to use civic technology to strengthen citizens’ as well as civil society's engagement with national and continental decision-makers.
