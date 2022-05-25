@@ -23,13 +23,11 @@ tags:
   - Governance
   - Mooc_DEG
 ---
-
-
 Join us online on June 7, 14.30 EAT 
 
 To register for the event, click [here](https://us06web.zoom.us/meeting/register/tZUlduioqDopHtPuzHix7BUNp-9X8ml7OOJN)*. 
 
-
+\*Interpretation in French will be available during the event\*
 
 Civic technology (also called civic tech) enhances the relationship between people and governments with software for communications, decision-making, service delivery, and political processes.  The [Charter Project Africa](https://charter.africa/) recognises civic tech as the digital tools that make it easier for citizens to organise and mobilise on matters of governance and to engage with decision-makers. 
 
@@ -45,8 +43,6 @@ On 30 November 2021 we launched the [CivicTech Fund Africa](https://civictechfun
 We are therefore delighted to invite you to the unveiling of the first  4 successful teams selected under the grant “[Civic Tech and the African Governance Architecture (AGA)](https://civictechfund.africa/aga/)”. 
 
 The organisations will be empowered to use civic technology to strengthen citizens’ as well as civil society's engagement with national and continental decision-makers. During the event they will present their civic tech solution and how they intend to use it for a better participation of the African people to the local and continental decision making processes. 
-
-
 
 Programme
 
@@ -71,13 +67,9 @@ Schedule:
 
 15:28 Concluding remarks from moderator & next steps (2 minutes).
 
-
-
 Join us to learn more on how civic tech can empower citizens’ voices!
 
 [Register here](https://us06web.zoom.us/meeting/register/tZUlduioqDopHtPuzHix7BUNp-9X8ml7OOJN)
-
-
 
 For any inquiry, contact us at info@charter.africa.
 
