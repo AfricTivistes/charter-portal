@@ -34,7 +34,7 @@
   "faqDescription": "Want to ask something from us?",
   "faqButton": "EXPLORE FORUM",
 
-  "clientsTitle": "Powered by Partnerships",
+  "clientsTitle": "Powered by",
   "clientsDescription": "A consortium of African and European organisations is supporting the implementation of the Charter Project Africa",
 
   "newsletterTitle": "Subscribe to the Newsletters",
@@ -49,7 +49,7 @@
 
   "trialTitle": "Funded by European Union",
   "trialDescription": "This website was created and maintained with the financial support of the European Union. Its contents are the sole responsibility of the Charter Project Africa and do not necessarily reflect the views of the European Union.",
-  "footerBuild": "Website designed and built by Africtivistes",
+  "footerBuild": "Website designed and built by AfricTivistes",
 
   "hello": "Gatsby multi-language starter",
   "subline": "Internationalization / i18n without third party plugins or packages for Posts and Pages. Different URLs dependending on the language. Focused on SEO, PWA, Image Optimization, Styled Components and more. This starter is also integrate with Netlify CMS to manage all pages, posts and images.",

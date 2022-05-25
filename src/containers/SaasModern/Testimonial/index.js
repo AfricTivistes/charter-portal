@@ -133,8 +133,8 @@ TestimonialSection.defaultProps = {
   },
   reviewTitle: {
     fontSize: ['15px', '16px'],
-    fontWeight: '500',
-    color: '#343d48',
+    fontWeight: '600',
+    color: '#4F1F37',
     lineHeight: '1.5',
     mb: '13px',
   },
