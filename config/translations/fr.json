@@ -16,25 +16,25 @@
   "InfoSectionDescription": "Les citoyens, les initiatives civiques et les décideurs politiques de l’Union africaine, aux niveaux national, régional et continental",
 
   "featTitle": "ACTIVITÉS",
-  "featDescription": "La technologie civique pour amplifier les voix des citoyens.",
+  "featDescription": "La technologie civique pour amplifier les voix des citoyens",
   "updateTitle": "CHIFFRES CLÉS",
   "updateDescription":"Pour une vision parfaite du project",
 
   "BlogTitle": "ACTUALITÉS",
-  "BlogDescription": "Retrouvez les dernières actualités",
+  "BlogDescription": "Retrouvez les dernières nouvelles",
 
   "partnerTitle": "Appel à consultation pour le Charter Project Africa",
   "partnerDescription": "You can trust us for any kind of services and some of the world class companies have also trusted us.So have faith and keep in touch with us .",
   "partnerButton": "Donnez votre avis",
 
-  "testimonialTitle": "TÉMOIGNAGE",
+  "testimonialTitle": "TÉMOIGNAGES",
   "testimonialDescription": "Ce que nos partenaires disent de nous",
 
   "faqTitle": "FOIRE AUX QUESTIONS",
   "faqDescription": "Vous voulez nous demander quelque chose ?",
   "faqButton": "EXPLORER LE FORUM",
 
-  "clientsTitle": "Alimenté par des partenairiats",
+  "clientsTitle": "Alimenté par",
   "clientsDescription": "Un consortium d'organisations africaines et européennes soutient la mise en œuvre du Charter Project Africa",
 
   "newsletterTitle": "Abonnez-vous à la newsletter",
@@ -49,7 +49,7 @@
 
   "trialTitle": "Financé par l'Union Européenne",
   "trialDescription": "Ce site web a été créé et maintenu avec le soutien financier de l'Union européenne. Son contenu relève de la seule responsabilité du Charter Project Africa et ne reflète pas nécessairement les vues de l'Union européenne.",
-  "footerBuild": "Site conçu et réalisé par Africtivistes",
+  "footerBuild": "Site conçu et réalisé par AfricTivistes",
 
   "hello": "Site multilíngue em Gatsby",
   "subline": "Internacionalização / i18n sem plugins ou pacotes de terceiros para Posts e Páginas. URLs diferentes dependendo do idioma. Foco em SEO, PWA, Otimização de imagens, Styled Components e muito mais. Esse starter também é integrado ao Netlify CMS para gerenciar todas as páginas, posts e imagens.",
