@@ -3,7 +3,7 @@ toptitle: 15 years of ACDEG
 title: "The state of ACDEG in light of the contemporary governance agenda in Africa "
 description: "#ACDEG #CharterAfrica #Democracy #Elections #Governance"
 date: 2022-05-06 10:21:36
-featureImage: /assets/img/1.png
+featureImage: /assets/img/state-of-acdeg.jpg
 image: /assets/img/ecdpm.jpg
 tags:
   - AfricaWeWant
