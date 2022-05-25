@@ -1,6 +1,7 @@
 ---
-title: Mooc Deg
-description: The DEG MOOC provides pedagogical and didactic content on democracy, good governance and elections in Africa
+title: MOOC DEG
+description: The DEG MOOC provides pedagogical and didactic content on
+  democracy, good governance and elections in Africa
 featureImage: /assets/img/icon-2.png
 image: /assets/img/mooc-affich.jpeg
 date: 2022-05-16 09:18:51
