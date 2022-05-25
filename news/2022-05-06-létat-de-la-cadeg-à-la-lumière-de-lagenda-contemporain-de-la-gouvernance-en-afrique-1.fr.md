@@ -5,7 +5,7 @@ title: L'état de la CADEG à la lumière de l'agenda contemporain de la
   gouvernance en Afrique
 description: "#ACDEG #CharterAfrica #Democracy #Elections #Governance"
 date: 2022-05-06 10:41:08
-featureImage: /assets/img/ecdpm.jpg
+featureImage: /assets/img/flag-union.jpg
 image: /assets/img/ecdpm.jpg
 tags:
   - AfricaWeWant
