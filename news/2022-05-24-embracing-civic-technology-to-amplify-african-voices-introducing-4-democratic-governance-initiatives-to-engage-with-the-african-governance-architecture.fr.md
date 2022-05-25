@@ -11,7 +11,7 @@ description: >-
 
   Ces organisations seront équipées pour utiliser les technologies civiques afin de renforcer l'engagement des citoyens et de la société civile auprès des décideurs nationaux et continentaux. Pendant l’événement, elles vont présenter leur solution technologique et elles expliqueront comment elles vont l’utiliser pour améliorer la participation des peuples africains aux processus décisionnels locaux et continentaux. 
 date: 2022-05-24 11:52:51
-featureImage: /assets/img/1.png
+featureImage: /assets/img/civic-technology.jpg
 image: /assets/img/1.png
 tags:
   - AfricaWeWant
