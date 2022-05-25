@@ -4,7 +4,7 @@ title: LESSONS FROM FIFTEEN YEARS OF THE CHARTER ON DEMOCRACY, ELECTIONS AND
   GOVERNANCE
 description: "#ACDEG #CharterAfrica #Democracy #Elections #Governance"
 date: 2022-04-08 10:02:00
-featureImage: /assets/img/ecdpm.jpg
+featureImage: /assets/img/flag-union.jpg
 image: /assets/img/ecdpm.jpg
 tags:
   - ACDEG
