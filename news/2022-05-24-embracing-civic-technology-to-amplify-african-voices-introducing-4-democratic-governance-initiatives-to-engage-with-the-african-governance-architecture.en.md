@@ -11,7 +11,7 @@ description: >-
 
   The organisations will be empowered to use civic technology to strengthen citizens’ as well as civil society's engagement with national and continental decision-makers.
 date: 2022-05-24 10:57:54
-featureImage: /assets/img/1.png
+featureImage: /assets/img/civic-technology.jpg
 image: /assets/img/1.png
 tags:
   - AfricaWeWant
