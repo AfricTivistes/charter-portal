@@ -54,7 +54,7 @@ Schedule:
 
 14.33 Welcome remarks from Alban Biaussat, Senior Policy & Programme Manager for the European Union Delegation to the African Union;
 
-14.38 Welcome remarks from a Sylvester Ademola Adesina, Advisor for the Deutsche Gesellschaft für Internationale Zusammenarbeit (GiZ);
+14.38 Welcome remarks from Sylvester Ademola Adesina, Advisor for the Deutsche Gesellschaft für Internationale Zusammenarbeit (GiZ);
 
 14.43 Remarks from Amb. Hammad Salah, Head of the AU’s African Governance Architecture Secretariat;
 
