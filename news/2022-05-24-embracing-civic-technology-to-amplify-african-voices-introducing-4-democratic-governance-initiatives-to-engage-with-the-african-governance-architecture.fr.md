@@ -29,8 +29,6 @@ Rejoignez-nous en ligne le 7 juin, à 14h30 EAT
 
 Pour vous inscrire à l'événement, cliquez [ici](https://us06web.zoom.us/meeting/register/tZUlduioqDopHtPuzHix7BUNp-9X8ml7OOJN)*.
 
-
-
 La technologie civique (également appelée civic tech) améliore la relation entre les citoyens et les gouvernements grâce aux logiciels pour la communication, la prise de décision, la prestation de services et les processus politiques. Le [Charter Project Africa](https://charter.africa/) soutient les technologies civiques en tant qu’ outils numériques permettant aux citoyens de s'organiser, de se mobiliser sur les questions de gouvernance et de s'engager auprès des décideurs.
 
 Nos objectifs généraux sont les suivants: 
@@ -46,8 +44,6 @@ Nous sommes ravis de vous inviter à la présentation des quatre premières équ
 
 Ces organisations seront équipées pour utiliser les technologies civiques afin de renforcer l'engagement des citoyens et de la société civile auprès des décideurs nationaux et continentaux. Pendant l’événement, elles vont présenter leur solution technologique et elles expliqueront comment elles vont l’utiliser pour améliorer la participation des peuples africains aux processus décisionnels locaux et continentaux. 
 
-
-
 Programme
 
 Modérateur : Andrew Songa, Coordinateur du Secrétariat de la Société Civile du Projet Charte en Afrique
@@ -56,13 +52,11 @@ Emploi du temps:
 
 14.30 Introduction par le modérateur Andrew Songa, Coordinateur du Secrétariat de la société civile du Charter Project Africa;
 
-14.33 Remarques de bienvenue de Alban Biaussat, Responsable des politiques et
+14.33 Remarques de bienvenue de Alban Biaussat, Responsable des politiques et des programmes pour la Délégation de l'Union européenne auprès de l'Union africaine;
 
-des programmes pour la Délégation de l'Union européenne auprès de l'Union africaine;
+14.38 Remarques de bienvenue par Sylvester Adesina Ademola, consultant auprès de Deutsche Gesellschaft für Internationale Zusammenarbeit (GIZ);
 
-14.38 Remarques de bienvenue d'un représentant de la Deutsche Gesellschaft für Internationale Zusammenarbeit (GiZ) (à confirmer);
-
-14.43 Remarques d’un représentant de l’Architecture de gouvernance africaine - Architecture africaine de paix et de sécurité (AGA-APSA) de l'UA (à confirmer);
+14.43 Remarques par l'Amb. Hammad Salah, Chef du Sécretariat de l’Architecture de gouvernance africaine;
 
 14.48 Présentation par les 4 organisations sélectionnées et questions-réponses:
 
@@ -73,13 +67,9 @@ des programmes pour la Délégation de l'Union européenne auprès de l'Union af
 
 15:28 Remarques finales du modérateur et prochaines étapes .
 
-
-
 Rejoignez-nous pour découvrir comment les technologies civiques peuvent donner du pouvoir à la voix des citoyens !
 
 Inscrivez-vous [ici](https://us06web.zoom.us/meeting/register/tZUlduioqDopHtPuzHix7BUNp-9X8ml7OOJN)!
-
-
 
 Pour toute question, contactez-nous à [info@charter.africa](mailto:info@charter.africa).
 
