@@ -67,6 +67,9 @@ const query = graphql`
             testimonialTitle
             testimonialDescription
 
+            teamTitle
+            teamDescription
+            
             faqTitle
             faqDescription
             faqButton

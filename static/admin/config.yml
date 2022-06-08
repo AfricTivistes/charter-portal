@@ -172,3 +172,43 @@ collections:
         }
       - { label: 'isActivity', name: 'activity', widget: 'hidden', default: true }
       - { label: 'Body', name: 'body', widget: 'markdown' }
+
+  #Granted (English)
+  - name: 'granted-en' # Used in routes, e.g., /admin/collections/granted
+    label: 'Granted (English)' # Used in the UI
+    folder: 'granted' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    extension: 'en.md'
+    format: frontmatter
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Name', name: 'title', widget: 'string' }
+      - { label: "feature Image", name: 'featureImage', widget: 'image' }
+      - { label: 'image', name: 'image', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Social"
+        name: "social"
+        widget: "list"
+        fields:
+          - { label: "Icon", name: "icon", widget: "string" }
+          - { label: "Url", name: "url", widget: "string" }
+
+  #Granted (Français)
+  - name: 'granted-fr' # Used in routes, e.g., /admin/collections/granted
+    label: 'Granted (Français)' # Used in the UI
+    folder: 'granted' # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: '{{slug}}' # Filename template, e.g., YYYY-MM-DD-title.md
+    extension: 'fr.md'
+    format: frontmatter
+    fields: # The fields for each document, usually in front matter
+      - { label: 'Nom', name: 'title', widget: 'string' }
+      - { label: "Image d'Aperçus", name: 'featureImage', widget: 'image' }
+      - { label: 'image', name: 'image', widget: 'image' }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
+      - label: "Social"
+        name: "social"
+        widget: "list"
+        fields:
+          - { label: "Icon", name: "icon", widget: "string" }
+          - { label: "Url", name: "url", widget: "string" }
