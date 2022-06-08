@@ -25,6 +25,7 @@ import Footer from '../containers/SaasModern/Footer/simple';
 import Seo from '../components/seo';
 import useTranslations from '../components/useTranslations';
 import NewsletterSection from '../containers/Agency/NewsletterSection';
+import TeamSection from '../containers/Agency/TeamSection';
 
 const App = () => {
 
@@ -55,6 +56,7 @@ const App = () => {
           {/* <PartnerSection /> */}
           <TestimonialSection />
           {/* <FaqSection /> */}
+          <TeamSection />
           <ClientsSection />
           <NewsletterSection />
           <TrialSection />

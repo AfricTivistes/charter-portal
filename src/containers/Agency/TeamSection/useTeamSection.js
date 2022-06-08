@@ -23,7 +23,7 @@ const query = graphql`
       filter: {
         fileAbsolutePath: {regex: "/(granted)\/.*[.]md$/"}
       }
-      sort: { fields: [frontmatter___project], order: DESC }
+      sort: { fields: [frontmatter___title], order: DESC }
     ) {
       edges {
         node {

@@ -67,6 +67,7 @@ const TeamSection = ({
                                                     href={social.url}
                                                     key={`profile_id-${index}`}
                                                     aria-label={social.icon}
+                                                    target="_blank" rel="noreferrer"
                                                 >
                                                     <i className={social.icon}></i>
                                                 </a>

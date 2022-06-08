@@ -19,7 +19,11 @@ const Page = ({ row, contentWrapper, ...props }) => {
                 description={post.frontmatter.description}
                 image={post.frontmatter.image}
             />
-            <BannerSection bannerTitle={post.frontmatter.title} bannerDescription={post.frontmatter.description} />
+            <BannerSection 
+                bannerTitle={post.frontmatter.title}
+                bannerDescription={post.frontmatter.description}
+                bannerImage={post.frontmatter.image}
+            />
             <Container>
                 <Box {...row}>
                     <Box {...contentWrapper}>
@@ -42,6 +46,11 @@ export const query = graphql`
       frontmatter {
         title
         description
+        image {
+          childImageSharp {
+            gatsbyImageData(quality: 100, layout: FULL_WIDTH,, width: 1170)
+          }
+        }
       }
       html
     }

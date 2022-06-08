@@ -1,14 +1,13 @@
 ---
 title: "Mzalendo Trust"
-project: "Project 1"
 featureImage: /assets/img/member-1.jpg
-image: /assets/img/member-1.jpg
+image: /assets/img/mzalendo-trust.jpg
 social:
   - icon: "flaticon-facebook-logo"
     url: "https://www.facebook.com/MzalendoWatch"
   - icon: "flaticon-twitter-logo-silhouette"
     url: "https://twitter.com/MzalendoWatch"
-  - icon: "flaticon-linkedin"
+  - icon: "flaticon-startup"
     url: "https://www.linkedin.com/company/mzalendo-trust"
   - icon: "flaticon-dribble-logo"
     url: "https://info.mzalendo.com"
