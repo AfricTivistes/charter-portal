@@ -24,5 +24,3 @@ The Service Provider is expected to develop online content that will be publishe
 Interested candidates should read the full TOR **[here](https://civictechfund.africa/wp-content/uploads/sites/4/2022/06/TOR-Communications-Content-Creator.pdf)**, send a brief description of their interest and a financial offer (hourly rate!), accompanied by an updated CV to [jobs@epd.eu](mailto:jobs@epd.eu) by **Sunday, 10 July 2022, COB**.
 
 BEFORE APPLYING, PLEASE READ THE FULL TOR** [HERE](https://civictechfund.africa/wp-content/uploads/sites/4/2022/06/TOR-Communications-Content-Creator.pdf)**.
-
-**Deadline to submit the application:** 10th of July 2022
