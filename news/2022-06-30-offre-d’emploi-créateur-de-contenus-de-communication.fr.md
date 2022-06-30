@@ -24,5 +24,3 @@ Le prestataire de services est censé développer du contenu en ligne qui sera p
 Les candidats intéressés doivent lire les termes de référence complets **[ici](https://civictechfund.africa/wp-content/uploads/sites/4/2022/06/TOR-Communications-Content-Creator.pdf)**, envoyer une courte description de leur intérêt et une offre financière (taux horaire !), accompagnée d’un CV actualisé à [jobs@epd.eu](mailto:jobs@epd.eu) avant le **dimanche 10 juillet 2022, COB**.
 
 AVANT DE POSTULER, VEUILLEZ LIRE L’OFFRE COMPLÈTE **[ICI](https://civictechfund.africa/wp-content/uploads/sites/4/2022/06/TOR-Communications-Content-Creator.pdf)**.
-
-**Date limite de présentation de la candidature :** 15 juillet 2022
