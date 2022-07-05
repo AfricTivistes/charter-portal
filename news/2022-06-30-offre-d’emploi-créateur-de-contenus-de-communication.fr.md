@@ -5,8 +5,8 @@ description: European Partnership for Democracy (EPD) recrute un Prestataire de
   services pour agir en tant que créateur de contenus de communication dans le
   cadre des projets EPD menés sur le continent africain.
 date: 2022-06-30 04:02:24
-featureImage: /assets/img/newsletter-banners-en-1200-×-628-px-345-×-500-px-1-.png
-image: /assets/img/newsletter-banners-en-1200-×-628-px-.png
+featureImage: /assets/img/newsletter-banners-en-1200-×-628-px-345-×-500-px-2-.png
+image: /assets/img/newsletter-banners-en-1200-×-628-px-2-.png
 tags:
   - AfricaWeWant
   - CharterAfrica
